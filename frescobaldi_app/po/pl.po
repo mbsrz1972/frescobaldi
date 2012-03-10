@@ -298,11 +298,11 @@ msgstr "Wyróżnianie elementów składni"
 
 #: ../documentactions.py:127
 msgid "&Automatic Indent"
-msgstr "&Automatycznie wcięcie"
+msgstr "&Automatyczne wcięcia"
 
 #: ../documentactions.py:128
 msgid "Re-&Indent"
-msgstr "Ponów wcięcie"
+msgstr "Ustaw wcięcia"
 
 #: ../documentactions.py:129
 msgid "&Format"
@@ -1035,7 +1035,7 @@ msgstr "Automatyczne &uzupełnianie"
 
 #: ../autocomplete/__init__.py:80
 msgid "Show C&ompletions Popup"
-msgstr "Pokaż okno podręczne uzupełniania"
+msgstr "Pokaż okno podpowiedzi"
 
 #: ../charmap/__init__.py:40 ../preferences/tools.py:186
 msgid "Special Characters"
@@ -1048,11 +1048,11 @@ msgstr "Znaki &specjalne."
 #: ../docbrowser/__init__.py:46 ../docbrowser/__init__.py:62
 #: ../preferences/documentation.py:122
 msgid "Documentation Browser"
-msgstr "Przeglądarka dokumentacji"
+msgstr "Okno dokumentacji"
 
 #: ../docbrowser/__init__.py:47
 msgid "&Documentation Browser"
-msgstr "Przeglądarka &dokumentacji"
+msgstr "Okno &dokumentacji"
 
 #: ../docbrowser/__init__.py:82 ../help/browser.py:79
 msgid "Back"
@@ -1077,7 +1077,7 @@ msgstr "Dokumentacja &LilyPonda"
 
 #: ../docbrowser/__init__.py:88
 msgid "&Contextual LilyPond Help"
-msgstr "&Kontekstowa pomoc LilyPonda"
+msgstr "Pomoc &kontekstowa LilyPonda"
 
 #: ../docbrowser/browser.py:115 ../snippet/widget.py:168
 msgid "Search..."
@@ -1150,35 +1150,35 @@ msgstr "Zamknij wszystkie dokumenty"
 
 #: ../engrave/__init__.py:177
 msgid "&Always Engrave [{docname}]"
-msgstr "Z&awsze rysuj [{docname}]"
+msgstr "Z&awsze składaj [{docname}]"
 
 #: ../engrave/__init__.py:179
 msgid "&Always Engrave This Document"
-msgstr "Z&awsze rysuj ten dokument"
+msgstr "Z&awsze składaj ten dokument"
 
 #: ../engrave/__init__.py:208
 msgid "Engrave"
-msgstr "Narysuj"
+msgstr "Składaj"
 
 #: ../engrave/__init__.py:209
 msgid "&Engrave (preview)"
-msgstr "Podgląd partytury"
+msgstr "Podgląd składu"
 
 #: ../engrave/__init__.py:210
 msgid "Engrave (&publish)"
-msgstr "Narysuj (&publikacja)"
+msgstr "Składaj (do &publikacji)"
 
 #: ../engrave/__init__.py:211
 msgid "Engrave (&custom)..."
-msgstr "Narysuj (&użytkownik)..."
+msgstr "Składaj (wg &parmetrów)..."
 
 #: ../engrave/__init__.py:212
 msgid "Abort Engraving &Job"
-msgstr "Porzuć rysowanie"
+msgstr "Przerwij skład"
 
 #: ../engrave/custom.py:123 ../engrave/custom.py:214
 msgid "Engrave custom"
-msgstr "Rysowanie zdefiniowane przez użytkownika"
+msgstr "Skład wg parametrów użytkownika"
 
 #: ../engrave/custom.py:124
 msgid "LilyPond Version:"
@@ -1206,11 +1206,11 @@ msgstr "Uruchom LilyPonda z wyświetlaniem komunikatów po angielsku"
 
 #: ../engrave/custom.py:131 ../preferences/lilypond.py:288
 msgid "Delete intermediate output files"
-msgstr "Usuwaj wynikowe pliki pośrednie"
+msgstr "Usuń pliki pomocnicze"
 
 #: ../engrave/custom.py:132
 msgid "Command line:"
-msgstr "Wiersz poleceń"
+msgstr "Wiersz poleceń:"
 
 #: ../engrave/custom.py:133
 msgid "Run LilyPond"
@@ -1228,7 +1228,7 @@ msgid ""
 "It is even possible to edit the command line itself.\n"
 msgstr ""
 "W tym oknie dialogowym można ustawić opcje polecenia programu LilyPond,\n"
-"które zostaną użyte podczas tworzenia partytury.\n"
+"które zostaną użyte podczas składu partytury.\n"
 "Można także edytować komendę w wierszu poleceń.\n"
 
 #: ../engrave/custom.py:223
@@ -1293,7 +1293,7 @@ msgstr "Rozpocznij"
 
 #: ../help/browser.py:82
 msgid "Contents"
-msgstr "Treść"
+msgstr "Zawartość"
 
 #: ../help/browser.py:89 ../help/browser.py:90 ../help/contents.py:69
 #: ../quickinsert/widget.py:106
@@ -2034,15 +2034,15 @@ msgstr "Powiększ partyturę"
 
 #: ../musicview/__init__.py:265
 msgid "Fit &Width"
-msgstr "Dopasuj &szerokość"
+msgstr "Dopasuj do &szerokości"
 
 #: ../musicview/__init__.py:266
 msgid "Fit &Height"
-msgstr "Dopasuj &wysokość"
+msgstr "Dopasuj do &wysokości"
 
 #: ../musicview/__init__.py:267
 msgid "Fit &Page"
-msgstr "Dopasuj stronę"
+msgstr "Cała strona"
 
 #: ../musicview/__init__.py:268
 msgid "&Jump to Cursor Position"
@@ -2082,15 +2082,15 @@ msgstr ""
 
 #: ../musicview/__init__.py:472
 msgid "Fit Width"
-msgstr "Dopasuj szerokość"
+msgstr "Dopasuj do szerokości"
 
 #: ../musicview/__init__.py:473
 msgid "Fit Height"
-msgstr "Dopasuj wysokość"
+msgstr "Dopasuj do wysokości"
 
 #: ../musicview/__init__.py:474
 msgid "Fit Page"
-msgstr "Dopasuj stronę"
+msgstr "Cała strona"
 
 #. L10N: page numbering: page {num} of {total}
 #: ../musicview/__init__.py:491
@@ -2157,14 +2157,14 @@ msgstr "Nie można zapisać obrazu."
 
 #: ../pitch/__init__.py:99
 msgid "Pitch Name &Language"
-msgstr "&Język nazw dźwięków"
+msgstr "System nazw dźwięków"
 
 #: ../pitch/__init__.py:101
 msgid ""
 "Change the LilyPond language used for pitch names in this document or in the "
 "selection."
 msgstr ""
-"Zmień języku używany przez LilyPonda dla nazw dźwięków dla tego dokumentu, "
+"Zmień system nazw dźwięków używany przez LilyPonda dla tego dokumentu, "
 "lub w danym zaznaczeniu."
 
 #: ../pitch/__init__.py:103
@@ -2360,7 +2360,7 @@ msgstr "pokazuje numer wersji programu i kończy"
 #. L10N: Command line options
 #: ../po/messages.py:32
 msgid "Options"
-msgstr "Opcję"
+msgstr "Opcje"
 
 #: ../po/messages.py:36
 msgctxt "CloseButton"
@@ -2410,7 +2410,7 @@ msgstr "Zamknij"
 #: ../po/messages.py:47
 msgctxt "QDialogButtonBox"
 msgid "Open"
-msgstr "Otwórz "
+msgstr "Otwórz"
 
 #: ../po/messages.py:48
 msgctxt "QDialogButtonBox"
@@ -2487,13 +2487,13 @@ msgstr "Prawa krawędź"
 #, fuzzy
 msgctxt "QScrollBar"
 msgid "Page left"
-msgstr "Flażolet"
+msgstr "Lewa strona"
 
 #: ../po/messages.py:65
 #, fuzzy
 msgctxt "QScrollBar"
 msgid "Page right"
-msgstr "Wklej rytm"
+msgstr "Prawa strona"
 
 #: ../po/messages.py:66
 msgctxt "QScrollBar"
@@ -3933,7 +3933,7 @@ msgstr "Dodaj kropkę do wszystkich wartości w danym fragmencie."
 
 #: ../rhythm/__init__.py:155
 msgid "&Undot durations"
-msgstr "Odejmij kropkę od wartości"
+msgstr "Usuń kropki"
 
 #: ../rhythm/__init__.py:157
 msgid "Remove one dot from all the durations in the selection."
@@ -4068,7 +4068,7 @@ msgstr "Rytm"
 
 #: ../scorewiz/__init__.py:59 ../scorewiz/dialog.py:194
 msgid "Setup New Score..."
-msgstr "Stwórz Nową Partyturę..."
+msgstr "Utwórz nową partyturę..."
 
 #: ../scorewiz/build.py:136
 msgid "Music follows here."
@@ -4088,7 +4088,7 @@ msgstr "Wyczyść"
 
 #: ../scorewiz/dialog.py:82
 msgid "Clears the current page of the Score Wizard."
-msgstr "Czyści bieżącą stronę z kreatora partytury."
+msgstr "Czyści bieżącą stronę kreatora partytury."
 
 #: ../scorewiz/dialog.py:83
 msgid "Preview"
@@ -5436,26 +5436,24 @@ msgid "&Session"
 msgstr "&Sesja"
 
 #: ../sidebar/__init__.py:140
-#, fuzzy
 msgid "&Line Numbers"
-msgstr "Liczba strun"
+msgstr "Numery wierszy"
 
 #: ../snippet/builtin.py:38
 msgid "Blank Line"
 msgstr "Pusta linia"
 
 #: ../snippet/builtin.py:44
-#, fuzzy
 msgid "Delete Line(s)"
-msgstr "Zaznacz linie powyżej"
+msgstr "Usuń linie"
 
 #: ../snippet/builtin.py:62
 msgid "Single Typographical Quotes"
-msgstr "Pojedynczy cudzysłow drukarski"
+msgstr "Pojedynczy cudzysłów drukarski"
 
 #: ../snippet/builtin.py:67
 msgid "Double Typographical Quotes"
-msgstr "Podwójny cudzysłow drukarski"
+msgstr "Podwójny cudzysłów drukarski"
 
 #: ../snippet/builtin.py:133
 msgid "Tuplets"
@@ -5483,11 +5481,11 @@ msgstr "Relatywny zapis muzyki"
 
 #: ../snippet/builtin.py:194
 msgid "Upper case selection"
-msgstr "Zaznaczenie wielkich liter"
+msgstr "Zamień na wielkie litery"
 
 #: ../snippet/builtin.py:200
 msgid "Lower case selection"
-msgstr "Zaznaczenie małych liter"
+msgstr "Zamień na małe litery"
 
 #: ../snippet/builtin.py:206
 #, fuzzy
@@ -5509,7 +5507,7 @@ msgstr "Stopka z datą oraz wersją LilyPonda"
 
 #: ../snippet/builtin.py:240
 msgid "Header Template"
-msgstr "Szablony nagłówków"
+msgstr "Szablon nagłówka"
 
 #: ../snippet/builtin.py:255
 msgid "No Tagline"
@@ -6055,13 +6053,11 @@ msgstr "Wybierz plik"
 #~ msgid "Click this button a few times to set the tempo."
 #~ msgstr "Kliknij na ten przycisk by ustalić tempo."
 
-#, fuzzy
 #~ msgid "Edit..."
-#~ msgstr "Drukuj..."
+#~ msgstr "Edytuj..."
 
-#, fuzzy
 #~ msgid "Remove"
-#~ msgstr "Usuń laseczki nut"
+#~ msgstr "Usuń"
 
 #~ msgid "Copyright (c) 2008-2010, Wilbert Berendsen"
 #~ msgstr "Copyright (c) 2008-2010, Wilbert Berendsen"
