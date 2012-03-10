@@ -151,23 +151,23 @@ msgstr "Wszystkie pliki"
 
 #: ../bookmarkmanager.py:112
 msgid "&Mark Current Line"
-msgstr "&Podkreślaj aktualną linię"
+msgstr "Dodaj zakładkę"
 
 #: ../bookmarkmanager.py:113
 msgid "Clear &Error Marks"
-msgstr "&Wyczyść zaznaczenia błędów"
+msgstr "&Wyczyść zakładki błędów"
 
 #: ../bookmarkmanager.py:114
 msgid "Clear &All Marks"
-msgstr "Wyczyść wszystkie zaznaczenia"
+msgstr "Wyczyść wszystkie zakładki"
 
 #: ../bookmarkmanager.py:115
 msgid "Next Mark"
-msgstr "Następne zaznaczenie"
+msgstr "Następna zakładka"
 
 #: ../bookmarkmanager.py:116
 msgid "Previous Mark"
-msgstr "Poprzednie zaznaczenie"
+msgstr "Poprzednia zakładka"
 
 #: ../convert_ly.py:119
 msgid "From version:"
@@ -1932,11 +1932,11 @@ msgstr "Raport LilyPond "
 
 #: ../logtool/__init__.py:91
 msgid "Next Error Message"
-msgstr "Następny komunikat błędu"
+msgstr "Następna zakładka błędu"
 
 #: ../logtool/__init__.py:92
 msgid "Previous Error Message"
-msgstr "Poprzedni komunikat błędu"
+msgstr "Poprzednia zakładka błędu"
 
 #: ../logtool/logwidget.py:118
 msgid "Click to edit this file"
