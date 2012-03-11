@@ -8,24 +8,22 @@ msgstr ""
 "Project-Id-Version: frescobaldi 2.0.3\n"
 "Report-Msgid-Bugs-To: info@frescobaldi.org\n"
 "POT-Creation-Date: 2012-03-05 11:17+0100\n"
-"PO-Revision-Date: 2012-02-17 00:26+0100\n"
-"Last-Translator: Piotr Komorowski <piotr-komorowski@wp.pl>\n"
+"PO-Revision-Date: 2012-03-11 10:23+0100\n"
+"Last-Translator: Maciej Bator <mbsrz1972@gmail.com>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
-"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
 "X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-Language: Polish\n"
 "X-Poedit-Country: POLAND\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: ../about.py:43
 msgid "{appname} is written in {python} and uses the {qt} toolkit."
-msgstr ""
-"{appname} jest napisany w {python}ie i korzysta z zestawu narzędzi {qt}. "
+msgstr "{appname} jest napisany w {python}ie i korzysta z zestawu narzędzi {qt}. "
 
 #. L10N: the Python programming language
 #: ../about.py:46
@@ -38,11 +36,8 @@ msgid "Qt4"
 msgstr "Qt4"
 
 #: ../about.py:50
-msgid ""
-"The Music View is powered by the {poppler} library by {authors} and others."
-msgstr ""
-"Okno partytury jest obsługiwane przez bibliotekę {poppler} autorstwa "
-"{authors} i innych."
+msgid "The Music View is powered by the {poppler} library by {authors} and others."
+msgstr "Okno partytury jest obsługiwane przez bibliotekę {poppler} autorstwa {authors} i innych."
 
 #. L10N: the Poppler PDF library
 #: ../about.py:54
@@ -69,7 +64,8 @@ msgstr "O programie {appname}"
 msgid "About"
 msgstr "O"
 
-#: ../about.py:88 ../help/contents.py:284
+#: ../about.py:88
+#: ../help/contents.py:284
 msgid "Credits"
 msgstr "Zasługi"
 
@@ -85,7 +81,8 @@ msgstr "System operacyjny"
 msgid "Version {version}"
 msgstr "Wersja {version}"
 
-#: ../about.py:152 ../main.py:60
+#: ../about.py:152
+#: ../main.py:60
 msgid "A LilyPond Music Editor"
 msgstr "Edytor nutowy LilyPond"
 
@@ -98,7 +95,8 @@ msgid "Send an e-mail message to the maintainers."
 msgstr "Wyślij e-mail do opiekunów programu."
 
 #. L10N: Translate this sentence and fill in your own name to have it appear in the About Dialog.
-#: ../about.py:160 ../help/contents.py:56
+#: ../about.py:160
+#: ../help/contents.py:56
 msgid "Translated by Your Name."
 msgstr "Przetłumaczone przez Piotra Komorowskiego "
 
@@ -106,14 +104,16 @@ msgstr "Przetłumaczone przez Piotra Komorowskiego "
 msgid "Licensed under the {gpl}."
 msgstr "Na licencji {gpl}."
 
-#: ../actioncollectionmanager.py:123 ../preferences/shortcuts.py:203
+#: ../actioncollectionmanager.py:123
+#: ../preferences/shortcuts.py:203
 msgid "This shortcut conflicts with the following command:"
 msgid_plural "This shortcut conflicts with the following commands:"
 msgstr[0] "Ten skrót klawiszowy koliduje z następującym poleceniem:"
 msgstr[1] "Ten skrót klawiszowy koliduje z następującym poleceniem:"
 msgstr[2] "Ten skrót klawiszowy koliduje z następującym poleceniem:"
 
-#: ../actioncollectionmanager.py:129 ../preferences/shortcuts.py:209
+#: ../actioncollectionmanager.py:129
+#: ../preferences/shortcuts.py:209
 msgid "Shortcut Conflict"
 msgstr "Konflikty skrótów klawiszowych"
 
@@ -139,13 +139,15 @@ msgstr "Pliki HTML"
 
 #: ../app.py:132
 msgid "Texinfo Files"
-msgstr "Plik Texinfo"
+msgstr "Pliki Texinfo"
 
 #: ../app.py:133
 msgid "Scheme Files"
 msgstr "Pliki Scheme"
 
-#: ../app.py:134 ../snippet/widget.py:265 ../snippet/widget.py:282
+#: ../app.py:134
+#: ../snippet/widget.py:265
+#: ../snippet/widget.py:282
 msgid "All Files"
 msgstr "Wszystkie pliki"
 
@@ -182,12 +184,8 @@ msgid "Save convert-ly messages in document"
 msgstr "Zapisz komunikaty z convert-ly w dokumencie"
 
 #: ../convert_ly.py:123
-msgid ""
-"If checked, the messages of convert-ly are appended as a comment to the end "
-"of the document."
-msgstr ""
-"Po zaznaczeniu komunikaty convert-ly są dołączane w postaci komentarza na "
-"końcu dokumentu."
+msgid "If checked, the messages of convert-ly are appended as a comment to the end of the document."
+msgstr "Po zaznaczeniu komunikaty convert-ly są dołączane w postaci komentarza na końcu dokumentu."
 
 #: ../convert_ly.py:125
 msgid "&Messages"
@@ -201,7 +199,9 @@ msgstr "Zmiany"
 msgid "Run Again"
 msgstr "Uruchom ponownie"
 
-#: ../convert_ly.py:138 ../docbrowser/browser.py:158 ../musicview/image.py:166
+#: ../convert_ly.py:138
+#: ../docbrowser/browser.py:158
+#: ../musicview/image.py:166
 msgid "<unknown>"
 msgstr "<nieznany>"
 
@@ -229,7 +229,7 @@ msgstr ""
 
 #: ../convert_ly.py:213
 msgid "The document has not been changed."
-msgstr "Dokument został zmieniony."
+msgstr "Dokument nie został zmieniony."
 
 #: ../convert_ly.py:219
 msgid "Current Document"
@@ -273,14 +273,15 @@ msgstr "Góra"
 
 #: ../cut_assign.py:39
 msgid "Cut and Assign"
-msgstr "Wytnij i przypisz"
+msgstr "Wytnij i przypisz do zmiennej"
 
 #: ../cut_assign.py:40
 msgid "Please enter the name for the variable to assign the selected text to:"
-msgstr ""
-"Proszę wprowadzić nazwę dla zmniennej przyporządkowanej do wybranego tekstu:"
+msgstr "Proszę wprowadzić nazwę dla zmniennej przyporządkowanej do zaznaczonego tekstu:"
 
-#: ../document.py:143 ../doclist/widget.py:126 ../snippet/edit.py:167
+#: ../document.py:143
+#: ../doclist/widget.py:126
+#: ../snippet/edit.py:167
 msgid "Untitled"
 msgstr "Bez tytułu"
 
@@ -290,7 +291,7 @@ msgstr "Bez tytułu ({num})"
 
 #: ../documentactions.py:125
 msgid "Cut and Assign..."
-msgstr "Wytnij i przypisz..."
+msgstr "Wytnij i przypisz do zmiennej..."
 
 #: ../documentactions.py:126
 msgid "Syntax &Highlighting"
@@ -306,22 +307,25 @@ msgstr "Ustaw wcięcia"
 
 #: ../documentactions.py:129
 msgid "&Format"
-msgstr "&Format"
+msgstr "&Formatuj składnię"
 
 #: ../documentactions.py:130
 msgid "&Update with convert-ly..."
 msgstr "&Uaktualnij z convert-ly..."
 
-#: ../documentcontextmenu.py:54 ../mainwindow.py:951
+#: ../documentcontextmenu.py:54
+#: ../mainwindow.py:951
 #: ../sessions/manager.py:128
 msgid "&Save"
 msgstr "Zapi&sz"
 
-#: ../documentcontextmenu.py:55 ../mainwindow.py:952
+#: ../documentcontextmenu.py:55
+#: ../mainwindow.py:952
 msgid "Save &As..."
 msgstr "Z&apisz jako..."
 
-#: ../documentcontextmenu.py:56 ../mainwindow.py:956
+#: ../documentcontextmenu.py:56
+#: ../mainwindow.py:956
 msgid "&Close"
 msgstr "&Zamknij"
 
@@ -333,7 +337,7 @@ msgstr "&Dokument "
 #. L10N: 'always engraved': the document is marked as 'Always Engrave' in the LilyPond menu
 #: ../documentmenu.py:109
 msgid "[always engraved]"
-msgstr "[zawsze narysowane]"
+msgstr "[zawsze złożony]"
 
 #: ../exception.py:69
 msgid "An internal error has occurred:"
@@ -353,19 +357,11 @@ msgstr "Należy opisać wykonane operacje:"
 
 #: ../globalfontdialog.py:69
 msgid "Global Fonts"
-msgstr "Czcionka ogólnego zastosowania"
+msgstr "Czcionki ogólnego zastosowania"
 
 #: ../globalfontdialog.py:71
-msgid ""
-"Please select the three global fonts to use for <code>\\roman</code>, <code>"
-"\\sans</code>, and <code>\\typewriter</code> respectively. You should also "
-"set the staff size to the global staff size you use in the document (20 by "
-"default)."
-msgstr ""
-"Proszę wybrać trzy zestawy czcionek, odpowiednio dla odmiany <code>\\roman</"
-"code>, <code>\\sans</code>, and <code>\\typewriter</code>. Należy również "
-"określić domyślny rozmiar pięciolinii (staff size) jaki zostanie użyty w "
-"dokumencie (domyślnie 20)."
+msgid "Please select the three global fonts to use for <code>\\roman</code>, <code>\\sans</code>, and <code>\\typewriter</code> respectively. You should also set the staff size to the global staff size you use in the document (20 by default)."
+msgstr "Proszę wybrać trzy zestawy czcionek, odpowiednio dla odmiany <code>\\roman</code>, <code>\\sans</code>, and <code>\\typewriter</code>. Należy również określić domyślny rozmiar pięciolinii (staff size) jaki zostanie użyty w dokumencie (domyślnie 20)."
 
 #: ../globalfontdialog.py:76
 msgid "Roman Font:"
@@ -385,30 +381,38 @@ msgstr "Rozmiar pięciolinii:"
 
 #: ../hyphendialog.py:114
 msgid "Hyphenate Lyrics Text"
-msgstr "Rozdziel tekst myślnikami"
+msgstr "Rozdziel sylaby myślnikami"
 
 #: ../hyphendialog.py:115
 msgid "Please select a language:"
 msgstr "Proszę wybrać język:"
 
-#: ../hyphendialog.py:157 ../hyphendialog.py:166
+#: ../hyphendialog.py:157
+#: ../hyphendialog.py:166
 msgid "Lyrics"
 msgstr "Słowa:"
 
-#: ../hyphendialog.py:166 ../pitch/pitch.py:744 ../rhythm/rhythm.py:279
+#: ../hyphendialog.py:166
+#: ../pitch/pitch.py:744
+#: ../rhythm/rhythm.py:279
 #: ../scorewiz/dialog.py:194
 msgctxt "menu title"
 msgid "Tools"
 msgstr "Narzędzia"
 
-#: ../hyphendialog.py:167 ../help/contents.py:140 ../help/contents.py:147
+#: ../hyphendialog.py:167
+#: ../help/contents.py:140
+#: ../help/contents.py:147
 msgctxt "menu title"
 msgid "Edit"
 msgstr "Edytuj"
 
-#: ../hyphendialog.py:167 ../help/contents.py:141
-#: ../preferences/__init__.py:106 ../preferences/midi.py:134
-#: ../preferences/prefshelp.py:36 ../preferences/prefshelp.py:42
+#: ../hyphendialog.py:167
+#: ../help/contents.py:141
+#: ../preferences/__init__.py:106
+#: ../preferences/midi.py:134
+#: ../preferences/prefshelp.py:36
+#: ../preferences/prefshelp.py:42
 msgid "Preferences"
 msgstr "Preferencje"
 
@@ -421,25 +425,21 @@ msgid ""
 "</p>\n"
 "\n"
 "<p>\n"
-"To use this feature you must first select the text you want to hyphenate. "
-"Then\n"
+"To use this feature you must first select the text you want to hyphenate. Then\n"
 "press {key_hyphen} or choose {menu_hyphen}.\n"
 "In the dialog that appears, select the language.\n"
 "Click OK or press Enter to have the hyphenation take place. \n"
 "</p>\n"
 "\n"
 "<p>\n"
-"A small limitation is that word processor hyphenation dictionaries often "
-"don't\n"
-"want to break a word right after the first letter (e.g. '{example}'), "
-"because that\n"
+"A small limitation is that word processor hyphenation dictionaries often don't\n"
+"want to break a word right after the first letter (e.g. '{example}'), because that\n"
 "does not look nice in word processor texts. So it can happen that you\n"
 "have to add some hyphens after the first letter of such lyrics. \n"
 "</p>\n"
 "\n"
 "<p>\n"
-"There is also a command to remove hyphenation. This can be useful if you "
-"have a\n"
+"There is also a command to remove hyphenation. This can be useful if you have a\n"
 "stanza of lyrics that you just want to display as a markup below the music.\n"
 "Under {menu_settings} you can enter a list of directories to search for\n"
 "hyphenation pattern files.\n"
@@ -462,8 +462,7 @@ msgstr "Przerywanie {job}..."
 msgid ""
 "Could not start {program}.\n"
 "Please check path and permissions."
-msgstr ""
-"Nie można uruchomić {program}. Należy sprawdzić scieżkę oraz uprawnienia."
+msgstr "Nie można uruchomić {program}. Należy sprawdzić scieżkę oraz uprawnienia."
 
 #: ../job.py:253
 msgid "Could not read from the process."
@@ -491,15 +490,15 @@ msgstr ""
 
 #: ../lyrics.py:132
 msgid "&Hyphenate Lyrics Text..."
-msgstr "Rozdziel tekst myślnikami..."
+msgstr "Rozdziel sylaby myślnikami..."
 
 #: ../lyrics.py:133
 msgid "&Remove hyphenation"
-msgstr "Usuń rozdzielenie tekstu myślnikami"
+msgstr "Usuń podział sylab"
 
 #: ../lyrics.py:134
 msgid "&Copy Lyrics with hyphenation removed"
-msgstr "Skopiuj słowa bez podziału wyrazów"
+msgstr "Skopiuj słowa bez podziału sylab"
 
 #: ../main.py:58
 msgid "{appname} [options] file ..."
@@ -513,17 +512,18 @@ msgstr "ENC"
 msgid "Encoding to use"
 msgstr "Używane kodowanie"
 
-#: ../main.py:63 ../main.py:65
+#: ../main.py:63
+#: ../main.py:65
 msgid "NUM"
 msgstr ""
 
 #: ../main.py:64
 msgid "Line number to go to, starting at 1"
-msgstr "Do której linii dojść, zaczynając w 1"
+msgstr "Do której linii dojść, zaczynając od 1"
 
 #: ../main.py:66
 msgid "Column to go to, starting at 0"
-msgstr "Do której kolumny dojść, zaczynając w 0"
+msgstr "Do której kolumny dojść, zaczynając od 0"
 
 #: ../main.py:67
 msgid "NAME"
@@ -548,15 +548,18 @@ msgid ""
 "The document \"{name}\" has been modified.\n"
 "Do you want to save your changes or discard them?"
 msgstr ""
-"Dokument \"{name}\" został zmodyfikowany.\n"
-"Czy chcesz zachować zmiany, czy porzucić je?"
+"Dokument \"{name}\" został zmieniony.\n"
+"Chcesz zachować czy porzucić zmiany?"
 
 #: ../mainwindow.py:281
 msgid "Tab Bar"
 msgstr "Pasek zakładek"
 
-#: ../mainwindow.py:338 ../popplerprint.py:53 ../sessions/dialog.py:171
-#: ../sessions/dialog.py:179 ../sessions/dialog.py:185
+#: ../mainwindow.py:338
+#: ../popplerprint.py:53
+#: ../sessions/dialog.py:171
+#: ../sessions/dialog.py:179
+#: ../sessions/dialog.py:185
 msgid "Warning"
 msgstr "Ostrzeżenie"
 
@@ -566,7 +569,7 @@ msgid ""
 "\n"
 "{url}"
 msgstr ""
-"Nie można wczytać dokumentu nielokalnego:\n"
+"Nie można wczytać zdalnego dokumentu:\n"
 "\n"
 "{url} "
 
@@ -576,15 +579,23 @@ msgid "Open File"
 msgstr "Otwórz plik"
 
 #. L10N: a basic type of input in the editor
-#: ../mainwindow.py:389 ../mainwindow.py:395 ../mainwindow.py:420
-#: ../mainwindow.py:471 ../mainwindow.py:539 ../mainwindow.py:598
-#: ../musicview/image.py:213 ../preferences/fontscolors.py:476
-#: ../preferences/fontscolors.py:514 ../snippet/import_export.py:104
+#: ../mainwindow.py:389
+#: ../mainwindow.py:395
+#: ../mainwindow.py:420
+#: ../mainwindow.py:471
+#: ../mainwindow.py:539
+#: ../mainwindow.py:598
+#: ../musicview/image.py:213
+#: ../preferences/fontscolors.py:476
+#: ../preferences/fontscolors.py:514
+#: ../snippet/import_export.py:104
 #: ../snippet/widget.py:292
 msgid "Error"
 msgstr "Błąd"
 
-#: ../mainwindow.py:390 ../mainwindow.py:396 ../mainwindow.py:421
+#: ../mainwindow.py:390
+#: ../mainwindow.py:396
+#: ../mainwindow.py:421
 msgid ""
 "Can't write to destination:\n"
 "\n"
@@ -609,7 +620,9 @@ msgctxt "dialog title"
 msgid "Save Selection"
 msgstr "Zapisz zaznaczenie"
 
-#: ../mainwindow.py:472 ../mainwindow.py:599 ../snippet/widget.py:293
+#: ../mainwindow.py:472
+#: ../mainwindow.py:599
+#: ../snippet/widget.py:293
 msgid ""
 "Can't write to destination:\n"
 "\n"
@@ -628,7 +641,8 @@ msgctxt "dialog title"
 msgid "Insert From File"
 msgstr "Wklej z pliku"
 
-#: ../mainwindow.py:540 ../snippet/import_export.py:105
+#: ../mainwindow.py:540
+#: ../snippet/import_export.py:105
 msgid ""
 "Can't read from source:\n"
 "\n"
@@ -740,7 +754,8 @@ msgstr "Ponów"
 msgid "Cu&t"
 msgstr "Wytnij"
 
-#: ../mainwindow.py:967 ../docbrowser/browser.py:248
+#: ../mainwindow.py:967
+#: ../docbrowser/browser.py:248
 msgid "&Copy"
 msgstr "S&kopiuj"
 
@@ -814,7 +829,7 @@ msgstr "Nowe &okno"
 
 #: ../mainwindow.py:987
 msgid "&Fullscreen"
-msgstr "Pełen &ekran"
+msgstr "Pełny &ekran"
 
 #: ../mainwindow.py:989
 msgid "&User Guide"
@@ -912,16 +927,13 @@ msgstr "Nie można wczytać modułu {name}"
 msgid ""
 "No print command to print a PostScript file could be found.\n"
 "\n"
-"Therefore the document will be printed using raster images at {resolution} "
-"DPI. It is recommended to print using a dedicated PDF viewer.\n"
+"Therefore the document will be printed using raster images at {resolution} DPI. It is recommended to print using a dedicated PDF viewer.\n"
 "\n"
 "Do you want to continue?"
 msgstr ""
 "Nie znaleziono polecenia wydruku pliku PostScript.\n"
 "\n"
-"Dokument zostanie wydrukowany jako obraz rastrowy o rozdzielczości "
-"{resolution} DPI. Zaleca się wydruk przy użyciu dedykowanej przeglądarki "
-"PDF.\n"
+"Dokument zostanie wydrukowany jako obraz rastrowy o rozdzielczości {resolution} DPI. Zaleca się wydruk przy użyciu dedykowanej przeglądarki PDF.\n"
 "\n"
 "Kontynuować?"
 
@@ -933,11 +945,13 @@ msgstr "Dokument PDF"
 msgid "Print {filename}"
 msgstr "Wydrukuj {filename}"
 
-#: ../popplerprint.py:87 ../popplerprint.py:116
+#: ../popplerprint.py:87
+#: ../popplerprint.py:116
 msgid "Printing Error"
 msgstr "Błąd drukowania"
 
-#: ../popplerprint.py:88 ../popplerprint.py:117
+#: ../popplerprint.py:88
+#: ../popplerprint.py:117
 msgid "Could not send the document to the printer."
 msgstr "Nie można wysłać tego dokumentu do drukarki."
 
@@ -968,7 +982,7 @@ msgstr "Wyrażenia regularne"
 
 #: ../search.py:105
 msgid "The total number of matches"
-msgstr "Całkowita liczba dopasowań"
+msgstr "Całkowita liczba znalezionych"
 
 #: ../search.py:106
 msgid "Close"
@@ -984,28 +998,28 @@ msgstr "Zastąp"
 
 #: ../search.py:109
 msgid "Replaces the next occurrence of the search term."
-msgstr "Zastępuje następne wystąpienie szukanego terminu."
+msgstr "Zastępuje następne wystąpienie szukanej frazy."
 
 #: ../search.py:110
 msgid "&All"
 msgstr "Wszystko"
 
 #: ../search.py:111
-msgid ""
-"Replaces all occurrences of the search term in the document or selection."
-msgstr ""
-"Zastępuje wszystkie wystąpienia szukanego terminu w tym dokumencie lub "
-"zaznaczeniu."
+msgid "Replaces all occurrences of the search term in the document or selection."
+msgstr "Zastępuje wszystkie wystąpienia szukanej frazy w dokumencie lub zaznaczeniu."
 
-#: ../viewmanager.py:66 ../viewmanager.py:214
+#: ../viewmanager.py:66
+#: ../viewmanager.py:214
 msgid "Line: {line}, Col: {column}"
 msgstr "Linia: {line}, kolumna: {column}"
 
-#: ../viewmanager.py:84 ../viewmanager.py:446
+#: ../viewmanager.py:84
+#: ../viewmanager.py:446
 msgid "Split &Horizontally"
 msgstr "Podziel poziomo"
 
-#: ../viewmanager.py:87 ../viewmanager.py:447
+#: ../viewmanager.py:87
+#: ../viewmanager.py:447
 msgid "Split &Vertically"
 msgstr "Podziel pionowo"
 
@@ -1037,7 +1051,8 @@ msgstr "Automatyczne &uzupełnianie"
 msgid "Show C&ompletions Popup"
 msgstr "Pokaż okno podpowiedzi"
 
-#: ../charmap/__init__.py:40 ../preferences/tools.py:186
+#: ../charmap/__init__.py:40
+#: ../preferences/tools.py:186
 msgid "Special Characters"
 msgstr "Znaki specjalne"
 
@@ -1045,7 +1060,8 @@ msgstr "Znaki specjalne"
 msgid "Special Charac&ters"
 msgstr "Znaki &specjalne."
 
-#: ../docbrowser/__init__.py:46 ../docbrowser/__init__.py:62
+#: ../docbrowser/__init__.py:46
+#: ../docbrowser/__init__.py:62
 #: ../preferences/documentation.py:122
 msgid "Documentation Browser"
 msgstr "Okno dokumentacji"
@@ -1054,11 +1070,13 @@ msgstr "Okno dokumentacji"
 msgid "&Documentation Browser"
 msgstr "Okno &dokumentacji"
 
-#: ../docbrowser/__init__.py:82 ../help/browser.py:79
+#: ../docbrowser/__init__.py:82
+#: ../help/browser.py:79
 msgid "Back"
 msgstr "Wstecz"
 
-#: ../docbrowser/__init__.py:83 ../help/browser.py:80
+#: ../docbrowser/__init__.py:83
+#: ../help/browser.py:80
 msgid "Forward"
 msgstr "Naprzód"
 
@@ -1079,7 +1097,8 @@ msgstr "Dokumentacja &LilyPonda"
 msgid "&Contextual LilyPond Help"
 msgstr "Pomoc &kontekstowa LilyPonda"
 
-#: ../docbrowser/browser.py:115 ../snippet/widget.py:168
+#: ../docbrowser/browser.py:115
+#: ../snippet/widget.py:168
 msgid "Search..."
 msgstr "Szukaj..."
 
@@ -1091,7 +1110,9 @@ msgstr "(lokalny)"
 msgid "({hostname})"
 msgstr "({hostname})"
 
-#: ../docbrowser/browser.py:229 ../help/browser.py:83 ../help/browser.py:114
+#: ../docbrowser/browser.py:229
+#: ../help/browser.py:83
+#: ../help/browser.py:114
 msgid "Print"
 msgstr "Wydrukuj"
 
@@ -1111,7 +1132,8 @@ msgstr "Otwórz Dokument w &Nowym Oknie"
 msgid "LilyPond Source"
 msgstr "Dokument źródłowy LilyPond "
 
-#: ../doclist/__init__.py:39 ../preferences/tools.py:219
+#: ../doclist/__init__.py:39
+#: ../preferences/tools.py:219
 msgid "Documents"
 msgstr "Dokumenty"
 
@@ -1176,7 +1198,8 @@ msgstr "Składaj (wg &parmetrów)..."
 msgid "Abort Engraving &Job"
 msgstr "Przerwij skład"
 
-#: ../engrave/custom.py:123 ../engrave/custom.py:214
+#: ../engrave/custom.py:123
+#: ../engrave/custom.py:214
 msgid "Engrave custom"
 msgstr "Skład wg parametrów użytkownika"
 
@@ -1200,11 +1223,13 @@ msgstr "Uruchom LilyPonda w trybie podglądu (z funkcją Point and Click)"
 msgid "Run LilyPond with verbose output"
 msgstr "Uruchom LilyPonda z wyświetlaniem szczegółów"
 
-#: ../engrave/custom.py:130 ../preferences/lilypond.py:291
+#: ../engrave/custom.py:130
+#: ../preferences/lilypond.py:291
 msgid "Run LilyPond with English messages"
 msgstr "Uruchom LilyPonda z wyświetlaniem komunikatów po angielsku"
 
-#: ../engrave/custom.py:131 ../preferences/lilypond.py:288
+#: ../engrave/custom.py:131
+#: ../preferences/lilypond.py:288
 msgid "Delete intermediate output files"
 msgstr "Usuń pliki pomocnicze"
 
@@ -1222,8 +1247,7 @@ msgstr "LilyPonda {version}"
 
 #: ../engrave/custom.py:218
 msgid ""
-"In this dialog you can set some parameters for the LilyPond command to be "
-"used\n"
+"In this dialog you can set some parameters for the LilyPond command to be used\n"
 "to engrave your document.\n"
 "It is even possible to edit the command line itself.\n"
 msgstr ""
@@ -1295,7 +1319,9 @@ msgstr "Rozpocznij"
 msgid "Contents"
 msgstr "Zawartość"
 
-#: ../help/browser.py:89 ../help/browser.py:90 ../help/contents.py:69
+#: ../help/browser.py:89
+#: ../help/browser.py:90
+#: ../help/contents.py:69
 #: ../quickinsert/widget.py:106
 msgid "Help"
 msgstr "Pomoc"
@@ -1315,15 +1341,12 @@ msgstr "Podręcznik programu Frescobaldi"
 #: ../help/contents.py:49
 msgid ""
 "<p>\n"
-"Frescobaldi is a light-weight, but powerful editor for LilyPond music "
-"files.\n"
-"This manual is written by {author} and documents {appname} version "
-"{version}.\n"
+"Frescobaldi is a light-weight, but powerful editor for LilyPond music files.\n"
+"This manual is written by {author} and documents {appname} version {version}.\n"
 "</p>\n"
 msgstr ""
 "<p>\n"
-"Frescobaldi jest lekkim, lecz jednocześnie oferującym wiele możliwości "
-"edytorem plików muzycznych LilyPond.\n"
+"Frescobaldi jest lekkim, lecz jednocześnie oferującym wiele możliwości edytorem plików muzycznych LilyPond.\n"
 "Podręcznik ten napisał {author}, wersja {version} dokumentacji {appname}.\n"
 "</p>\n"
 
@@ -1333,18 +1356,15 @@ msgid ""
 "\n"
 "<p>\n"
 "In many dialogs there are Help buttons or you can press the {key_help} key.\n"
-"Many user interface items also have \"What's This\" information which can "
-"be\n"
+"Many user interface items also have \"What's This\" information which can be\n"
 "revealed by pressing {key_whatsthis} or by selecting {menu_whatsthis}.\n"
 "</p>\n"
 msgstr ""
 "<h3>W jaki sposób uzyskać pomoc w programie Frescobaldi</h3>\n"
 "\n"
 "<p>\n"
-"W wielu oknach dialogowych znajdują się przyciski pomocy; można tu także "
-"użyć klawisza pomocy {key_help}.\n"
-"Wiele elementów interfejsu użytkownika posiada także informację \"Co to jest"
-"\", które\n"
+"W wielu oknach dialogowych znajdują się przyciski pomocy; można tu także użyć klawisza pomocy {key_help}.\n"
+"Wiele elementów interfejsu użytkownika posiada także informację \"Co to jest\", które\n"
 "można wyświetlić wciskając {key_whatsthis} lub wybierając {menu_whatsthis}.\n"
 "</p>\n"
 
@@ -1360,28 +1380,23 @@ msgstr "Wprowadzenie"
 msgid ""
 "<p>\n"
 "<a href=\"http://lilypond.org/\">LilyPond</a>\n"
-"is an open-source music engraving program, producing very high-quality "
-"sheet\n"
+"is an open-source music engraving program, producing very high-quality sheet\n"
 "music printouts from fairly simple text input files.\n"
 "Input files can be created using virtually any text editor, which LilyPond \n"
-"can then compile and output beautiful engraving, by default but not "
-"restricted to, PDF.\n"
+"can then compile and output beautiful engraving, by default but not restricted to, PDF.\n"
 "</p>\n"
 "\n"
 "<p>\n"
 "Frescobaldi is an application to make editing LilyPond music scores\n"
 "faster and easier. You will still need to learn LilyPond's input language\n"
-"but if you read the {getting_started} section of this User Guide, you'll "
-"pickup\n"
+"but if you read the {getting_started} section of this User Guide, you'll pickup\n"
 "some LilyPond basics to get you started.\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"Once you have grasped the basics, the next step would be to use the "
-"LilyPond \n"
+"Once you have grasped the basics, the next step would be to use the LilyPond \n"
 "Learning Manual from \n"
-"<a href=\"http://lilypond.org/doc/\">LilyPond's excellent online "
-"documentation</a>.\n"
+"<a href=\"http://lilypond.org/doc/\">LilyPond's excellent online documentation</a>.\n"
 "</p>"
 msgstr ""
 
@@ -1389,8 +1404,10 @@ msgstr ""
 msgid "Getting Started"
 msgstr "Pierwsze kroki"
 
-#: ../help/contents.py:138 ../preferences/fontscolors.py:482
-#: ../preferences/lilypond.py:239 ../scorewiz/settings.py:295
+#: ../help/contents.py:138
+#: ../preferences/fontscolors.py:482
+#: ../preferences/lilypond.py:239
+#: ../scorewiz/settings.py:295
 msgid "LilyPond"
 msgstr "LilyPond"
 
@@ -1398,7 +1415,8 @@ msgstr "LilyPond"
 msgid "Engrave (publish)"
 msgstr "Narysuj (publikacja)"
 
-#: ../help/contents.py:142 ../preferences/__init__.py:184
+#: ../help/contents.py:142
+#: ../preferences/__init__.py:184
 #: ../preferences/prefshelp.py:83
 msgid "LilyPond Preferences"
 msgstr "Ustawienia LilyPonda "
@@ -1433,8 +1451,7 @@ msgid ""
 "Then click the Lily toolbar button or press {key_engrave}.\n"
 "LilyPond will start to processes your file and the PDF will be displayed \n"
 "in the Music View on the right. If LilyPond encounters any errors or \n"
-"warnings they will be displayed in the LilyPond Log at the bottom of the "
-"screen.\n"
+"warnings they will be displayed in the LilyPond Log at the bottom of the screen.\n"
 "</p>\n"
 "\n"
 "<p><img src=\"getting_started1.png\"></p>\n"
@@ -1451,22 +1468,18 @@ msgid ""
 "</li>\n"
 "\n"
 "<li>\n"
-"Use the Ctrl key and your mouse wheel to zoom in and out. Zooming will "
-"center \n"
+"Use the Ctrl key and your mouse wheel to zoom in and out. Zooming will center \n"
 "around the mouse pointer.\n"
 "</li>\n"
 "\n"
 "<li>\n"
-"Ctrl-left-click-and-hold the mouse to magnify a small section of the Music "
-"View\n"
+"Ctrl-left-click-and-hold the mouse to magnify a small section of the Music View\n"
 "without zooming in the whole view.\n"
 "</li>\n"
 "\n"
 "<li>\n"
-"Selecting text in the main text window will highlight corresponding notes in "
-"the \n"
-"Music View; press {key_jump} to explicitly center and highlight a note or "
-"other objects\n"
+"Selecting text in the main text window will highlight corresponding notes in the \n"
+"Music View; press {key_jump} to explicitly center and highlight a note or other objects\n"
 "in the Music View.\n"
 "</li>\n"
 "\n"
@@ -1485,33 +1498,24 @@ msgid ""
 "\n"
 "<p>\n"
 "If LilyPond does not start at all, check if you have installed LilyPond\n"
-"correctly and that the lilypond command is in your system's PATH "
-"environment\n"
-"variable. If needed, provide the exact path to your LilyPond executable "
-"under\n"
+"correctly and that the lilypond command is in your system's PATH environment\n"
+"variable. If needed, provide the exact path to your LilyPond executable under\n"
 "{menu_preferences_lilypond}.\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"If LilyPond encounters any warnings or errors in your document they will "
-"show up in the \n"
-"LilyPond Log window at the bottom of the screen. Frescobaldi will then "
-"highlight \n"
+"If LilyPond encounters any warnings or errors in your document they will show up in the \n"
+"LilyPond Log window at the bottom of the screen. Frescobaldi will then highlight \n"
 "these lines in the text view where the errors are. Clicking the error in \n"
-"the Log Window or pressing {key_error} immediately brings the text cursor to "
-"the \n"
-"offending line in your text view. Pressing {key_error} again will move to "
-"the \n"
-"next error message, and so on. LilyPond will remove any previous error "
-"line \n"
-"highlights the next time it is run but you can also remove any error line "
-"markings \n"
+"the Log Window or pressing {key_error} immediately brings the text cursor to the \n"
+"offending line in your text view. Pressing {key_error} again will move to the \n"
+"next error message, and so on. LilyPond will remove any previous error line \n"
+"highlights the next time it is run but you can also remove any error line markings \n"
 "manually with the option {menu_clear_error_marks}.\n"
 "</p>\n"
 msgstr ""
 "<p>\n"
-"Domyślne okno programu Frescobaldi pokazuje dokument tekstowy z lewej strony "
-"oraz\n"
+"Domyślne okno programu Frescobaldi pokazuje dokument tekstowy z lewej strony oraz\n"
 "pusty widok partytury z prawej strony.\n"
 "</p>\n"
 "\n"
@@ -1522,10 +1526,8 @@ msgstr ""
 "{example}\n"
 "\n"
 "<p>\n"
-"Następnie kliknij przycisk Lily na pasku narzędziowym lub naciśnij "
-"{key_engrave}.\n"
-"LilyPond rozpocznie przetwarzanie pliku po czym zostanie wyświetlony plik "
-"PDF\n"
+"Następnie kliknij przycisk Lily na pasku narzędziowym lub naciśnij {key_engrave}.\n"
+"LilyPond rozpocznie przetwarzanie pliku po czym zostanie wyświetlony plik PDF\n"
 "w oknie partytury po prawej stronie. Jeśli LilyPond napotka jakieś błędy \n"
 "zostaną wyświetlone ostrzeżenia w raporcie na dole ekranu.\n"
 "</p>\n"
@@ -1538,69 +1540,54 @@ msgstr ""
 "\n"
 "<ul>\n"
 "<li>\n"
-"Przesuwanie myszą ponad nutami lub innymi elementami partytury spowoduje "
-"podkreślenie odpowiadających im fragmentów tekstu\n"
-"w oknie po lewo; kliknięcie elementu spowoduje umieszczenie kursora z lewej "
-"strony danego fragmentu kodu\n"
+"Przesuwanie myszą ponad nutami lub innymi elementami partytury spowoduje podkreślenie odpowiadających im fragmentów tekstu\n"
+"w oknie po lewo; kliknięcie elementu spowoduje umieszczenie kursora z lewej strony danego fragmentu kodu\n"
 "z lewej strony ekranu.\n"
 "</li>\n"
 "\n"
 "<li>\n"
-"Użycie klawisza Ctrl w połączeniu z kółkiem myszy powiększa lub pomniejsza "
-"obraz. Zostanie on wyśrodkowany\n"
+"Użycie klawisza Ctrl w połączeniu z kółkiem myszy powiększa lub pomniejsza obraz. Zostanie on wyśrodkowany\n"
 "wokół kursora myszy.\n"
 "</li>\n"
 "\n"
 "<li>\n"
-"Kliknij i przytrzymaj lewym przyciskiem myszy w połączeniu z klawiszem Ctrl, "
-"aby powiększyć mały fragment partytury\n"
+"Kliknij i przytrzymaj lewym przyciskiem myszy w połączeniu z klawiszem Ctrl, aby powiększyć mały fragment partytury\n"
 "bez powiększania całości.\n"
 "</li>\n"
 "\n"
 "<li>\n"
-"Zaznaczenie tekstu w oknie tekstowym podkreśli odpowiadający mu fragment "
-"nutowy \n"
-"w oknie partytury; wciśnięcie {key_jump} wyśrodkuje oraz podkreśli "
-"odpowiadający element\n"
+"Zaznaczenie tekstu w oknie tekstowym podkreśli odpowiadający mu fragment nutowy \n"
+"w oknie partytury; wciśnięcie {key_jump} wyśrodkuje oraz podkreśli odpowiadający element\n"
 "w oknie partytury.\n"
 "</li>\n"
 "\n"
 "<li>\n"
-"Przeciągnięcie zaznaczonego fragmentu z przytrzymaniem klawisza Shift, a "
-"następnie wciśnięcie {key_copy_image} lub {menu_copy_image}\n"
-"skopiuje dany fragment w postaci grafiki rastrowej do schowka, w celu "
-"zachowania w postaci pliku lub\n"
+"Przeciągnięcie zaznaczonego fragmentu z przytrzymaniem klawisza Shift, a następnie wciśnięcie {key_copy_image} lub {menu_copy_image}\n"
+"skopiuje dany fragment w postaci grafiki rastrowej do schowka, w celu zachowania w postaci pliku lub\n"
 "przeniesienia do innego programu.\n"
 "</li>\n"
 "</ul>\n"
 "\n"
 "<p>\n"
-"Po ukończeniu partytury należy uruchomić LilyPond ponownie, tym razem z "
-"wyłączoną opcją linkowania\n"
+"Po ukończeniu partytury należy uruchomić LilyPond ponownie, tym razem z wyłączoną opcją linkowania\n"
 "nut i tekstu: menu {menu_engrave}. Spowoduje to znaczne\n"
 "zmniejszenie rozmiaru pliku PDF.\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"Jeśli LilyPond nie uruchamia się należy przede wszystkim sprawdzić, czy "
-"został on poprawnie zainstalowany,\n"
-"a także czy znajduje się w zmiennej środowiskowej (system's PATH "
-"environment\n"
-"variable). W razie potrzeby należy ustawić ściężkę dostępu do pliku "
-"wykonywalnego LilyPonda w\n"
+"Jeśli LilyPond nie uruchamia się należy przede wszystkim sprawdzić, czy został on poprawnie zainstalowany,\n"
+"a także czy znajduje się w zmiennej środowiskowej (system's PATH environment\n"
+"variable). W razie potrzeby należy ustawić ściężkę dostępu do pliku wykonywalnego LilyPonda w\n"
 "{menu_preferences_lilypond}.\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"Jeśli LilyPond napotka ostrzeżenia lub błędy w dokumencie, zostaną one "
-"umieszczone w\n"
+"Jeśli LilyPond napotka ostrzeżenia lub błędy w dokumencie, zostaną one umieszczone w\n"
 "raporcie na dole ekranu. Następnie Frescobaldi podkreśli\n"
-"te wiersze tekstu, które zawierają błędy. Kliknięcie na komunikat błędu w "
-"oknie raportu lub wciśnięcie\n"
+"te wiersze tekstu, które zawierają błędy. Kliknięcie na komunikat błędu w oknie raportu lub wciśnięcie\n"
 "{key_error} przeniesie kursor myszy do odpowiedniego wiersza tekstu.\n"
 "Ponowne wciśnięcie {key_error} przeniesie do następnego\n"
-"komunikatu o błędzie, itd. LilyPond usunie podkreślenia wierszy "
-"zawierających błędy\n"
+"komunikatu o błędzie, itd. LilyPond usunie podkreślenia wierszy zawierających błędy\n"
 "przy następnym uruchomieniu, ale można je również usunąć ręcznie\n"
 "za pomocą opcji {menu_clear_error_marks}.\n"
 "</p>\n"
@@ -1629,8 +1616,7 @@ msgid ""
 "Frescobaldi's homepage is at\n"
 "<a href=\"http://www.frescobaldi.org/\">www.frescobaldi.org</a>\n"
 "and there is a mailinglist at\n"
-"<a href=\"mailto:frescobaldi@googlegroups.com\">frescobaldi@googlegroups."
-"com</a>\n"
+"<a href=\"mailto:frescobaldi@googlegroups.com\">frescobaldi@googlegroups.com</a>\n"
 "(<a href=\"http://groups.google.com/group/frescobaldi\">more info</a>).\n"
 "</p>\n"
 msgstr ""
@@ -1646,26 +1632,21 @@ msgstr ""
 #: ../help/contents.py:300
 msgid ""
 "<p>\n"
-"Frescobaldi is a <a href=\"http://www.gnu.org/philosophy/free-sw.html"
-"\">Free\n"
+"Frescobaldi is a <a href=\"http://www.gnu.org/philosophy/free-sw.html\">Free\n"
 "Software</a> project to create a user friendly LilyPond music score editor.\n"
 "The goal is to make Frescobaldi available on all major platforms.\n"
 "</p>\n"
 "\n"
 "<p>\n"
 "Frescobaldi is developed in a public GitHub repository at {url}.\n"
-"There you can browse or checkout the source code and report bugs and "
-"wishes.\n"
+"There you can browse or checkout the source code and report bugs and wishes.\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"You can contribute by simply using Frescobaldi and reporting bugs and "
-"suggestions.\n"
-"Translations are also very welcome. How to create new translations is "
-"described\n"
+"You can contribute by simply using Frescobaldi and reporting bugs and suggestions.\n"
+"Translations are also very welcome. How to create new translations is described\n"
 "in the file README-translations in the source distribution of Frescobaldi.\n"
-"If you want to add functionality you can find information about the source "
-"code\n"
+"If you want to add functionality you can find information about the source code\n"
 "structure in the file README-development.\n"
 "</p>\n"
 msgstr ""
@@ -1677,25 +1658,21 @@ msgstr "Historia programu Frescobaldi"
 #: ../help/contents.py:328
 msgid ""
 "<p>\n"
-"Frescobaldi has its roots in LilyKDE, which was a plugin for KDE3's editor "
-"Kate.\n"
+"Frescobaldi has its roots in LilyKDE, which was a plugin for KDE3's editor Kate.\n"
 "LilyKDE was written in Python and released in 2007 on Christmas.\n"
 "</p>\n"
 "\n"
 "<p>\n"
 "When KDE developed version 4, it was not immediately possible to make Kate\n"
 "plugins in Python. So LilyKDE became a standalone application, wrapping the\n"
-"Kate texteditor part, and was renamed to Frescobaldi. It still used the "
-"Okular\n"
+"Kate texteditor part, and was renamed to Frescobaldi. It still used the Okular\n"
 "KDE part to display PDF documents.\n"
 "Frescobaldi 0.7 was the first public release, on Christmas 2008.\n"
-"On Christmas 2009 version 1.0.0 was released and on Christmas 2010 version "
-"1.2.0.\n"
+"On Christmas 2009 version 1.0.0 was released and on Christmas 2010 version 1.2.0.\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"At that time it was decided to move away from the KDE4 libraries and just "
-"use\n"
+"At that time it was decided to move away from the KDE4 libraries and just use\n"
 "Python and Qt4 which are easily available on all major computing platforms.\n"
 "Frescobaldi 2.0 is a complete rewrite from scratch. Its release date is\n"
 "targeted at Christmas 2011.\n"
@@ -1719,7 +1696,8 @@ msgstr ""
 msgid "Search and replace"
 msgstr "Znajdź i zastąp"
 
-#: ../help/contents.py:382 ../preferences/prefshelp.py:42
+#: ../help/contents.py:382
+#: ../preferences/prefshelp.py:42
 msgid "Edit"
 msgstr "Edytuj"
 
@@ -1733,11 +1711,9 @@ msgid ""
 "</p>\n"
 "\n"
 "<p>\n"
-"Regular expressions are advanced search texts that contain characters that "
-"can\n"
+"Regular expressions are advanced search texts that contain characters that can\n"
 "match multiple characters in the document.\n"
-"When replacing text, it is also possible to refer to parenthesized parts of "
-"the\n"
+"When replacing text, it is also possible to refer to parenthesized parts of the\n"
 "search text.\n"
 "</p>\n"
 "\n"
@@ -1756,20 +1732,18 @@ msgid ""
 "<dd>matches one of the contained characters</dd>\n"
 "<dt><code>( )</code></dt>\n"
 "<dd>group characters. This also saves the matched text in the group.\n"
-"When replacing, you can use characters like <code>\\1</code>, <code>\\2</"
-"code>\n"
-"etcetera, to write the text of the corresponding group in the replacement "
-"text.\n"
+"When replacing, you can use characters like <code>\\1</code>, <code>\\2</code>\n"
+"etcetera, to write the text of the corresponding group in the replacement text.\n"
 "</dd>\n"
-"<dt><code>\\\\ \\n \\t \\s \\d \\w</code></dt>\n"
+"<dt><code>\\\\ \\n"
+" \\t \\s \\d \\w</code></dt>\n"
 "<dd>match, respectively, a backslash, a newline, a tab, any whitespace\n"
 "character, a digit, a generic word-like character.</dd>\n"
 "</dl>\n"
 "\n"
 "<p>\n"
 "A full discussion on regular expressions can be found in the\n"
-"<a href=\"http://docs.python.org/library/re.html#regular-expression-syntax"
-"\">Python\n"
+"<a href=\"http://docs.python.org/library/re.html#regular-expression-syntax\">Python\n"
 "documentation</a>.\n"
 "</p>\n"
 msgstr ""
@@ -1780,11 +1754,9 @@ msgstr "Zmienne dokumentu"
 
 #: ../help/contents.py:437
 msgid ""
-"Document variables are variables that influence the behaviour of "
-"Frescobaldi.\n"
+"Document variables are variables that influence the behaviour of Frescobaldi.\n"
 "They can be written in the first five or last five lines of a document.\n"
-"If a line contains '<b><code>-*-</code></b>', Frescobaldi searches the rest "
-"of\n"
+"If a line contains '<b><code>-*-</code></b>', Frescobaldi searches the rest of\n"
 "the lines for variable definitions like <code>name: value;</code>.\n"
 msgstr ""
 
@@ -1798,12 +1770,8 @@ msgstr "tryb"
 
 #. L10N: do not translate the mode names lilypond, html, etc.
 #: ../help/contents.py:451
-msgid ""
-"Force mode to be one of lilypond, html, texinfo, latex, docbook or scheme. "
-"Default: automatic mode recognition."
-msgstr ""
-"Wymuś jeden z następujących trybów: lilypond, html, texinfo, latex, docbook "
-"lub scheme. Domyślnie: automatyczne rozpoznanie trybu."
+msgid "Force mode to be one of lilypond, html, texinfo, latex, docbook or scheme. Default: automatic mode recognition."
+msgstr "Wymuś jeden z następujących trybów: lilypond, html, texinfo, latex, docbook lub scheme. Domyślnie: automatyczne rozpoznanie trybu."
 
 #: ../help/contents.py:453
 msgid "filename"
@@ -1826,13 +1794,11 @@ msgid "version"
 msgstr "wersja"
 
 #: ../help/contents.py:458
-msgid ""
-"Set the LilyPond version to use, can be used for non-LilyPond documents."
-msgstr ""
-"Ustaw wersję LilyPonda, której można użyć także dla dokumentów innych "
-"programów."
+msgid "Set the LilyPond version to use, can be used for non-LilyPond documents."
+msgstr "Ustaw wersję LilyPonda, której można użyć także dla dokumentów innych programów."
 
-#: ../help/contents.py:460 ../help/contents.py:468
+#: ../help/contents.py:460
+#: ../help/contents.py:468
 msgid "number"
 msgstr "numer"
 
@@ -1862,17 +1828,17 @@ msgid "Sessions"
 msgstr "Sesja "
 
 #: ../help/contents.py:489
-msgid ""
-"A session is basically a list of open files. At any time you can choose "
-"{menu_session_save} or {menu_session_new} and save the current list of open "
-"files to a named session."
+msgid "A session is basically a list of open files. At any time you can choose {menu_session_save} or {menu_session_new} and save the current list of open files to a named session."
 msgstr ""
 
-#: ../help/contents.py:492 ../help/contents.py:493 ../help/contents.py:502
+#: ../help/contents.py:492
+#: ../help/contents.py:493
+#: ../help/contents.py:502
 msgid "Session"
 msgstr "Sesja "
 
-#: ../help/contents.py:492 ../help/contents.py:502
+#: ../help/contents.py:492
+#: ../help/contents.py:502
 #, fuzzy
 msgid "Save"
 msgstr "Zapisz"
@@ -1884,18 +1850,11 @@ msgid "New"
 msgstr "&Nowy"
 
 #: ../help/contents.py:494
-msgid ""
-"When you switch sessions, all current documents are closed first and then "
-"the documents of the other session are opened."
+msgid "When you switch sessions, all current documents are closed first and then the documents of the other session are opened."
 msgstr ""
 
 #: ../help/contents.py:496
-msgid ""
-"Inside the session properties dialog, you can choose whether to always save "
-"the list of open documents to that session, or to only save on creation (or "
-"via {menu_session_save}). This can be useful if you want to keep the list of "
-"documents in session the same, even if you open or close documents while "
-"working."
+msgid "Inside the session properties dialog, you can choose whether to always save the list of open documents to that session, or to only save on creation (or via {menu_session_save}). This can be useful if you want to keep the list of documents in session the same, even if you open or close documents while working."
 msgstr ""
 
 #: ../help/contents.py:503
@@ -1922,7 +1881,8 @@ msgstr "Zobacz także"
 msgid "(no key defined)"
 msgstr "(nie zdefiniowano klawisza)"
 
-#: ../logtool/__init__.py:50 ../preferences/tools.py:80
+#: ../logtool/__init__.py:50
+#: ../preferences/tools.py:80
 msgid "LilyPond Log"
 msgstr "LilyPond Log"
 
@@ -1988,7 +1948,8 @@ msgctxt "midi lcd screen"
 msgid "TOTAL"
 msgstr ""
 
-#: ../miditool/widget.py:315 ../miditool/widget.py:325
+#: ../miditool/widget.py:315
+#: ../miditool/widget.py:325
 msgctxt "midi lcd screen"
 msgid "TIME"
 msgstr "CZAS"
@@ -2073,12 +2034,8 @@ msgid "Choose the PDF document to display."
 msgstr "Wybierz dokument PDF do wyświetlenia."
 
 #: ../musicview/__init__.py:414
-msgid ""
-"Choose the PDF document to display or drag the file to another application "
-"or location."
-msgstr ""
-"Wybierz dokument PDF do wyświetlenia lub przeciągnij plik do innej aplikacji "
-"lub położenia."
+msgid "Choose the PDF document to display or drag the file to another application or location."
+msgstr "Wybierz dokument PDF do wyświetlenia lub przeciągnij plik do innej aplikacji lub położenia."
 
 #: ../musicview/__init__.py:472
 msgid "Fit Width"
@@ -2133,13 +2090,10 @@ msgstr "Zapisz jako..."
 #, no-python-format
 msgid ""
 "<p>\n"
-"Clicking toggles the display between 100% size and window size. Drag to copy "
-"the image to another application. Drag with Ctrl (or {command}) to scroll a "
-"large image.\n"
+"Clicking toggles the display between 100% size and window size. Drag to copy the image to another application. Drag with Ctrl (or {command}) to scroll a large image.\n"
 "</p>\n"
 "<p>\n"
-"You can also drag the small picture icon in the bottom right, which drags "
-"the actual file on disk, e.g. to an e-mail message.\n"
+"You can also drag the small picture icon in the bottom right, which drags the actual file on disk, e.g. to an e-mail message.\n"
 "</p>"
 msgstr ""
 
@@ -2160,36 +2114,24 @@ msgid "Pitch Name &Language"
 msgstr "System nazw dźwięków"
 
 #: ../pitch/__init__.py:101
-msgid ""
-"Change the LilyPond language used for pitch names in this document or in the "
-"selection."
-msgstr ""
-"Zmień system nazw dźwięków używany przez LilyPonda dla tego dokumentu, "
-"lub w danym zaznaczeniu."
+msgid "Change the LilyPond language used for pitch names in this document or in the selection."
+msgstr "Zmień system nazw dźwięków używany przez LilyPonda dla tego dokumentu, lub w danym zaznaczeniu."
 
 #: ../pitch/__init__.py:103
 msgid "Convert Relative to &Absolute"
 msgstr "Konwertuj Relatywne do &Absolutnych"
 
 #: ../pitch/__init__.py:105
-msgid ""
-"Converts the notes in the document or selection from relative to absolute "
-"pitch."
-msgstr ""
-"Konwertuje nuty w danym dokumencie lub fragmencie z wysokości relatywnych do "
-"absolutnych."
+msgid "Converts the notes in the document or selection from relative to absolute pitch."
+msgstr "Konwertuje nuty w danym dokumencie lub fragmencie z wysokości relatywnych do absolutnych."
 
 #: ../pitch/__init__.py:107
 msgid "Convert Absolute to &Relative"
 msgstr "Konwertuj Absolutne do &Relatywnych"
 
 #: ../pitch/__init__.py:109
-msgid ""
-"Converts the notes in the document or selection from absolute to relative "
-"pitch."
-msgstr ""
-"Zmienia nuty w danym dokumencie, lub fragmencie z zapisu absolutnego na "
-"relatywny."
+msgid "Converts the notes in the document or selection from absolute to relative pitch."
+msgstr "Zmienia nuty w danym dokumencie, lub fragmencie z zapisu absolutnego na relatywny."
 
 #: ../pitch/__init__.py:111
 msgid "&Transpose..."
@@ -2199,7 +2141,8 @@ msgstr "&Transponuj"
 msgid "Transposes all notes in the document or selection."
 msgstr "Transponuje wszystkie nuty w danym dokumencie, lub jego fragmencie."
 
-#: ../pitch/pitch.py:81 ../pitch/pitch.py:94
+#: ../pitch/pitch.py:81
+#: ../pitch/pitch.py:94
 msgid "Pitch Name Language"
 msgstr "Język nazw dźwięków"
 
@@ -2207,21 +2150,15 @@ msgstr "Język nazw dźwięków"
 msgid ""
 "Can't perform the requested translation.\n"
 "\n"
-"The music contains quarter-tone alterations, but those are not available in "
-"the pitch language \"{name}\"."
+"The music contains quarter-tone alterations, but those are not available in the pitch language \"{name}\"."
 msgstr ""
 "Przetłumaczenie nie powiodło się.\n"
 "\n"
-"Muzyka zawiera ćwierćtonowe znaki chromatyczne, które nie są dostępne w tym "
-"języku \"%1\"."
+"Muzyka zawiera ćwierćtonowe znaki chromatyczne, które nie są dostępne w tym języku \"%1\"."
 
 #: ../pitch/pitch.py:98
-msgid ""
-"The pitch language of the selected text has been updated, but you need to "
-"manually add the following command to your document:"
-msgstr ""
-"Język nazw dźwięków w zaznaczonym obszarze został zaktualizowany, musisz "
-"jednak ręcznie dodać do swojego dokumentu następujące polecenie: "
+msgid "The pitch language of the selected text has been updated, but you need to manually add the following command to your document:"
+msgstr "Język nazw dźwięków w zaznaczonym obszarze został zaktualizowany, musisz jednak ręcznie dodać do swojego dokumentu następujące polecenie: "
 
 #: ../pitch/pitch.py:102
 msgid "(for LilyPond below 2.14), or"
@@ -2231,29 +2168,25 @@ msgstr "(dla LilyPonda poniżej 2.14) lub"
 msgid "(for LilyPond 2.14 and higher.)"
 msgstr "(dla Lilyponda 2.14 lub wyższego)."
 
-#: ../pitch/pitch.py:398 ../pitch/pitch.py:580 ../pitch/pitch.py:752
+#: ../pitch/pitch.py:398
+#: ../pitch/pitch.py:580
+#: ../pitch/pitch.py:752
 msgid "Transpose"
 msgstr "Transponuj"
 
 #: ../pitch/pitch.py:399
-msgid ""
-"Please enter two absolute pitches, separated by a space, using the pitch "
-"name language \"{language}\"."
-msgstr ""
-"Proszę wpisać dwie absolutne wysokości oddzielone spacją, posługując się "
-"nazwami z języka \"{language}\"."
+msgid "Please enter two absolute pitches, separated by a space, using the pitch name language \"{language}\"."
+msgstr "Proszę wpisać dwie absolutne wysokości oddzielone spacją, posługując się nazwami z języka \"{language}\"."
 
 #: ../pitch/pitch.py:581
 msgid ""
 "Can't perform the requested transposition.\n"
 "\n"
-"The transposed music would contain quarter-tone alterations that are not "
-"available in the pitch language \"{language}\"."
+"The transposed music would contain quarter-tone alterations that are not available in the pitch language \"{language}\"."
 msgstr ""
 "Nie można wykonać żądanej transpozycji.\n"
 "\n"
-"Muzyka może zawierać ćwierćtonowe znaki chromatyczne, które nie są dostępne "
-"w tym języku \"{language}\"."
+"Muzyka może zawierać ćwierćtonowe znaki chromatyczne, które nie są dostępne w tym języku \"{language}\"."
 
 #: ../pitch/pitch.py:712
 msgid "Pitch manipulation"
@@ -2275,8 +2208,7 @@ msgid ""
 "\n"
 "<dt>Convert relative music to absolute</dt>\n"
 "<dd>\n"
-"This converts all <code>\\relative</code> music parts to absolute pitch "
-"names.\n"
+"This converts all <code>\\relative</code> music parts to absolute pitch names.\n"
 "It removes, but honours, octave checks.\n"
 "</dd>\n"
 "\n"
@@ -2284,8 +2216,7 @@ msgid ""
 "<dd>\n"
 "Checks all toplevel music expressions, changing them into\n"
 "<code>\\relative</code> mode as soon as the expression contains a pitch.\n"
-"If you want to make separate sub-expressions relative, it may be necessary "
-"to\n"
+"If you want to make separate sub-expressions relative, it may be necessary to\n"
 "select music from the first expression, leaving out higher-level opening\n"
 "braces.\n"
 "</dd>\n"
@@ -2303,8 +2234,7 @@ msgid ""
 "<p>\n"
 "When transposing music, two absolute pitches need to be given to specify\n"
 "the distance to transpose over. The pitches may include octave marks.\n"
-"The pitches must be entered in the pitch name language used in the "
-"document.\n"
+"The pitches must be entered in the pitch name language used in the document.\n"
 "</p>\n"
 "\n"
 "<p>\n"
@@ -2328,8 +2258,7 @@ msgid ""
 "</p>\n"
 "\n"
 "<p>\n"
-"It is also possible to use the transpose function to change a piece of "
-"music\n"
+"It is also possible to use the transpose function to change a piece of music\n"
 "from C-sharp to D-flat, or to specify quarter tones if supported in the\n"
 "pitch name language that is used.\n"
 "</p>\n"
@@ -2505,37 +2434,46 @@ msgctxt "QScrollBar"
 msgid "Scroll right"
 msgstr "Przewiń w prawo"
 
-#: ../preferences/__init__.py:173 ../preferences/general.py:123
-#: ../preferences/prefshelp.py:52 ../preferences/prefshelp.py:61
+#: ../preferences/__init__.py:173
+#: ../preferences/general.py:123
+#: ../preferences/prefshelp.py:52
+#: ../preferences/prefshelp.py:61
 msgid "General Preferences"
 msgstr "Ustawienia ogólne"
 
-#: ../preferences/__init__.py:195 ../preferences/prefshelp.py:128
+#: ../preferences/__init__.py:195
+#: ../preferences/prefshelp.py:128
 msgid "MIDI Settings"
 msgstr "Ustawienia MIDI"
 
-#: ../preferences/__init__.py:206 ../preferences/helpers.py:80
+#: ../preferences/__init__.py:206
+#: ../preferences/helpers.py:80
 #: ../preferences/prefshelp.py:160
 msgid "Helper Applications"
 msgstr "Pomocne programy"
 
-#: ../preferences/__init__.py:217 ../preferences/prefshelp.py:181
+#: ../preferences/__init__.py:217
+#: ../preferences/prefshelp.py:181
 msgid "Paths"
 msgstr "Ścieżki"
 
-#: ../preferences/__init__.py:228 ../preferences/prefshelp.py:195
+#: ../preferences/__init__.py:228
+#: ../preferences/prefshelp.py:195
 msgid "LilyPond Documentation"
 msgstr "Dokumentacja LilyPonda"
 
-#: ../preferences/__init__.py:239 ../preferences/prefshelp.py:213
+#: ../preferences/__init__.py:239
+#: ../preferences/prefshelp.py:213
 msgid "Keyboard Shortcuts"
 msgstr "Skróty klawiszowe"
 
-#: ../preferences/__init__.py:250 ../preferences/prefshelp.py:232
+#: ../preferences/__init__.py:250
+#: ../preferences/prefshelp.py:232
 msgid "Fonts & Colors"
 msgstr "Czcionki i kolory"
 
-#: ../preferences/__init__.py:261 ../preferences/prefshelp.py:255
+#: ../preferences/__init__.py:261
+#: ../preferences/prefshelp.py:255
 msgid "Tools"
 msgstr "Narzędzia"
 
@@ -2545,39 +2483,39 @@ msgstr "Ścieżka do dokumentacji LilyPonda"
 
 #: ../preferences/documentation.py:68
 msgid "Add paths or URLs. See \"What's This\" for more information."
-msgstr ""
-"Dodaj ścieżkę lub adres URL. Zobacz \"Co to jest\", aby uzyskać więcej "
-"informacji."
+msgstr "Dodaj ścieżkę lub adres URL. Zobacz \"Co to jest\", aby uzyskać więcej informacji."
 
-#: ../preferences/documentation.py:70 ../preferences/prefshelp.py:200
+#: ../preferences/documentation.py:70
+#: ../preferences/prefshelp.py:200
 msgid ""
-"<p>Here you can add local paths or URLs pointing to LilyPond documentation. "
-"A local path should point to the directory where either the "
-"\"{documentation}\" directory lives, or the whole \"share/doc/lilypond/html/"
-"offline-root\" path.</p>\n"
-"<p>If those can't be found, documentation is looked for in all "
-"subdirectories of the given path, one level deep. This makes it possible to "
-"put multiple versions of LilyPond documentation in different subdirectories "
-"and have Frescobaldi automatically find them.</p>"
+"<p>Here you can add local paths or URLs pointing to LilyPond documentation. A local path should point to the directory where either the \"{documentation}\" directory lives, or the whole \"share/doc/lilypond/html/offline-root\" path.</p>\n"
+"<p>If those can't be found, documentation is looked for in all subdirectories of the given path, one level deep. This makes it possible to put multiple versions of LilyPond documentation in different subdirectories and have Frescobaldi automatically find them.</p>"
 msgstr ""
 
 #: ../preferences/documentation.py:123
 msgid "Preferred Language:"
 msgstr "Język preferowany:"
 
-#: ../preferences/documentation.py:124 ../preferences/general.py:128
-#: ../scorewiz/settings.py:138 ../scorewiz/settings.py:204
-#: ../scorewiz/settings.py:299 ../scorewiz/parts/_base.py:214
-#: ../scorewiz/parts/plucked_strings.py:65 ../widgets/schemeselector.py:115
+#: ../preferences/documentation.py:124
+#: ../preferences/general.py:128
+#: ../scorewiz/settings.py:138
+#: ../scorewiz/settings.py:204
+#: ../scorewiz/settings.py:299
+#: ../scorewiz/parts/_base.py:214
+#: ../scorewiz/parts/plucked_strings.py:65
+#: ../widgets/schemeselector.py:115
 msgid "Default"
 msgstr "Domyślny"
 
-#: ../preferences/documentation.py:125 ../scorewiz/settings.py:202
+#: ../preferences/documentation.py:125
+#: ../scorewiz/settings.py:202
 msgid "English (untranslated)"
 msgstr "Angielski (bez tłumaczenia)"
 
-#: ../preferences/documentation.py:126 ../preferences/fontscolors.py:122
-#: ../preferences/tools.py:81 ../preferences/tools.py:187
+#: ../preferences/documentation.py:126
+#: ../preferences/fontscolors.py:122
+#: ../preferences/tools.py:81
+#: ../preferences/tools.py:187
 msgid "Font:"
 msgstr "Czcionka:"
 
@@ -2589,7 +2527,8 @@ msgstr "Proszę wpisać ścieżkę lokalną lub adres URL:"
 msgid "Use this scheme for printing"
 msgstr "Użyj tego schematu dla wydruków"
 
-#: ../preferences/fontscolors.py:123 ../preferences/fontscolors.py:298
+#: ../preferences/fontscolors.py:123
+#: ../preferences/fontscolors.py:298
 msgid "Base Colors"
 msgstr "Kolory podstawowe"
 
@@ -2602,12 +2541,14 @@ msgid "(Inherits: {name})"
 msgstr ""
 
 #. L10N: color of Text
-#: ../preferences/fontscolors.py:360 ../preferences/fontscolors.py:435
+#: ../preferences/fontscolors.py:360
+#: ../preferences/fontscolors.py:435
 msgid "Text"
 msgstr "Tekst"
 
 #. L10N: color of Background
-#: ../preferences/fontscolors.py:361 ../preferences/fontscolors.py:437
+#: ../preferences/fontscolors.py:361
+#: ../preferences/fontscolors.py:437
 msgid "Background"
 msgstr "Kolor tła"
 
@@ -2670,7 +2611,8 @@ msgid "Preview Highlight"
 msgstr "Podgląd zaznaczenia"
 
 #. L10N: a basic type of input in the editor
-#: ../preferences/fontscolors.py:462 ../preferences/fontscolors.py:497
+#: ../preferences/fontscolors.py:462
+#: ../preferences/fontscolors.py:497
 #: ../preferences/fontscolors.py:533
 msgid "Keyword"
 msgstr "Słowo kluczowe"
@@ -2681,19 +2623,23 @@ msgid "Function"
 msgstr "Działanie"
 
 #. L10N: a basic type of input in the editor
-#: ../preferences/fontscolors.py:466 ../preferences/fontscolors.py:508
+#: ../preferences/fontscolors.py:466
+#: ../preferences/fontscolors.py:508
 msgid "Variable"
 msgstr "Zmienna"
 
 #. L10N: a basic type of input in the editor
-#: ../preferences/fontscolors.py:468 ../preferences/fontscolors.py:510
+#: ../preferences/fontscolors.py:468
+#: ../preferences/fontscolors.py:510
 #: ../preferences/fontscolors.py:520
 msgid "Value"
 msgstr "Wartość"
 
 #. L10N: a basic type of input in the editor
-#: ../preferences/fontscolors.py:470 ../preferences/fontscolors.py:511
-#: ../preferences/fontscolors.py:523 ../preferences/fontscolors.py:529
+#: ../preferences/fontscolors.py:470
+#: ../preferences/fontscolors.py:511
+#: ../preferences/fontscolors.py:523
+#: ../preferences/fontscolors.py:529
 msgid "String"
 msgstr "Łańcuch znaków"
 
@@ -2703,9 +2649,12 @@ msgid "Escape"
 msgstr "Escape"
 
 #. L10N: a basic type of input in the editor
-#: ../preferences/fontscolors.py:474 ../preferences/fontscolors.py:513
-#: ../preferences/fontscolors.py:522 ../preferences/fontscolors.py:530
-#: ../preferences/fontscolors.py:538 ../snippet/builtin.py:302
+#: ../preferences/fontscolors.py:474
+#: ../preferences/fontscolors.py:513
+#: ../preferences/fontscolors.py:522
+#: ../preferences/fontscolors.py:530
+#: ../preferences/fontscolors.py:538
+#: ../snippet/builtin.py:302
 msgid "Comment"
 msgstr "Komentarz"
 
@@ -2734,7 +2683,8 @@ msgstr "Palcowanie"
 msgid "String Number"
 msgstr "Liczba strun"
 
-#: ../preferences/fontscolors.py:490 ../quickinsert/spanners.py:143
+#: ../preferences/fontscolors.py:490
+#: ../quickinsert/spanners.py:143
 msgid "Slur"
 msgstr "Łuk"
 
@@ -2750,7 +2700,8 @@ msgstr "Artykulacja"
 msgid "Chord"
 msgstr "Akord"
 
-#: ../preferences/fontscolors.py:494 ../quickinsert/spanners.py:145
+#: ../preferences/fontscolors.py:494
+#: ../quickinsert/spanners.py:145
 msgid "Beam"
 msgstr "Belka"
 
@@ -2758,11 +2709,13 @@ msgstr "Belka"
 msgid "Check"
 msgstr ""
 
-#: ../preferences/fontscolors.py:496 ../snippet/builtin.py:172
+#: ../preferences/fontscolors.py:496
+#: ../snippet/builtin.py:172
 msgid "Repeat"
 msgstr "Powtórzenie"
 
-#: ../preferences/fontscolors.py:498 ../preferences/shortcuts.py:56
+#: ../preferences/fontscolors.py:498
+#: ../preferences/shortcuts.py:56
 msgid "Command"
 msgstr "Polecenie"
 
@@ -2774,7 +2727,8 @@ msgstr "Specyfikator"
 msgid "User Command"
 msgstr "Polecenie użytkownika"
 
-#: ../preferences/fontscolors.py:501 ../snippet/builtin.py:212
+#: ../preferences/fontscolors.py:501
+#: ../snippet/builtin.py:212
 msgid "Markup"
 msgstr "Znacznik"
 
@@ -2806,7 +2760,8 @@ msgstr "Właściwość"
 msgid "User Variable"
 msgstr "Zmienne użytkownika"
 
-#: ../preferences/fontscolors.py:512 ../preferences/fontscolors.py:535
+#: ../preferences/fontscolors.py:512
+#: ../preferences/fontscolors.py:535
 #, fuzzy
 msgid "Escaped Character"
 msgstr "Znaki specjalne"
@@ -2823,7 +2778,8 @@ msgstr "Znacznik"
 msgid "LilyPond Tag"
 msgstr "Znacznik LilyPond"
 
-#: ../preferences/fontscolors.py:519 ../preferences/fontscolors.py:536
+#: ../preferences/fontscolors.py:519
+#: ../preferences/fontscolors.py:536
 msgid "Attribute"
 msgstr "Atrybut"
 
@@ -2832,7 +2788,8 @@ msgstr "Atrybut"
 msgid "Entity Reference"
 msgstr "Słownik notacji"
 
-#: ../preferences/fontscolors.py:525 ../preferences/fontscolors.py:526
+#: ../preferences/fontscolors.py:525
+#: ../preferences/fontscolors.py:526
 msgid "Scheme"
 msgstr ""
 
@@ -2856,7 +2813,8 @@ msgstr "Odcinek"
 msgid "Verbatim"
 msgstr ""
 
-#: ../preferences/general.py:124 ../scorewiz/settings.py:222
+#: ../preferences/general.py:124
+#: ../scorewiz/settings.py:222
 msgid "Language:"
 msgstr "Język:"
 
@@ -2868,7 +2826,8 @@ msgstr "Brak tłumaczenia"
 msgid "System Default Language (if available)"
 msgstr "Domyślny język systemu (jeśli dostępny)"
 
-#: ../preferences/general.py:127 ../scorewiz/parts/percussion.py:187
+#: ../preferences/general.py:127
+#: ../scorewiz/parts/percussion.py:187
 msgid "Style:"
 msgstr "Styl:"
 
@@ -2878,8 +2837,7 @@ msgstr "Użyj ikon systemowych"
 
 #: ../preferences/general.py:131
 msgid ""
-"If checked, icons of the desktop icon theme will be used instead of the "
-"bundled icons.\n"
+"If checked, icons of the desktop icon theme will be used instead of the bundled icons.\n"
 "This setting takes effect on the next start of {appname}."
 msgstr ""
 
@@ -2887,11 +2845,10 @@ msgstr ""
 msgid "Show Splash Screen on Startup"
 msgstr ""
 
-#: ../preferences/general.py:161 ../preferences/prefshelp.py:69
+#: ../preferences/general.py:161
+#: ../preferences/prefshelp.py:69
 msgid "Session to load if Frescobaldi is started without arguments"
-msgstr ""
-"Jaką sesję wczytać, gdy Frescobaldi zostanie uruchomiony bez dodatkowych "
-"argumentów"
+msgstr "Jaką sesję wczytać, gdy Frescobaldi zostanie uruchomiony bez dodatkowych argumentów"
 
 #: ../preferences/general.py:162
 msgid "Start with no session"
@@ -2905,7 +2862,8 @@ msgstr "Startuj z ostatnią używaną sesją"
 msgid "Start with session:"
 msgstr "Startuj z sesją:"
 
-#: ../preferences/general.py:219 ../preferences/prefshelp.py:77
+#: ../preferences/general.py:219
+#: ../preferences/prefshelp.py:77
 msgid "When saving documents"
 msgstr "Podczas zapisywania dokumentów"
 
@@ -2964,15 +2922,8 @@ msgid "Shell:"
 msgstr "Powłoka:"
 
 #: ../preferences/helpers.py:82
-msgid ""
-"Below you can enter commands to open different file types. <code>$f</code> "
-"is replaced with the filename, <code>$u</code> with the URL. Leave a field "
-"empty to use the operating system default application."
-msgstr ""
-"Poniżej należy wpisać polecenia otwarcia różnych typów plików.<code>$f</"
-"code> zastępowany jest nazwą pliku, <code>$u</code> adresem URL. Należy "
-"pozostawić pole puste, aby uruchamiać programy domyślne dla danego systemu "
-"operacyjnego."
+msgid "Below you can enter commands to open different file types. <code>$f</code> is replaced with the filename, <code>$u</code> with the URL. Leave a field empty to use the operating system default application."
+msgstr "Poniżej należy wpisać polecenia otwarcia różnych typów plików.<code>$f</code> zastępowany jest nazwą pliku, <code>$u</code> adresem URL. Należy pozostawić pole puste, aby uruchamiać programy domyślne dla danego systemu operacyjnego."
 
 #: ../preferences/helpers.py:90
 msgid "Command that should accept a mailto: URL."
@@ -2986,33 +2937,29 @@ msgstr "Polecenie uruchomienia terminalu lub wiersza poleceń."
 msgid "LilyPond versions to use"
 msgstr "Używana wersja LilyPonda"
 
-#: ../preferences/lilypond.py:82 ../preferences/prefshelp.py:103
+#: ../preferences/lilypond.py:82
+#: ../preferences/prefshelp.py:103
 msgid "Automatically choose LilyPond version from document"
-msgstr ""
-"Automatyczny wybór wersji LilyPonda (wybór wersji użytej w danym dokumencie)"
+msgstr "Automatyczny wybór wersji LilyPonda (wybór wersji użytej w danym dokumencie)"
 
 #: ../preferences/lilypond.py:84
 msgid ""
 "If checked, the document's version determines the LilyPond version to use.\n"
 "See \"What's This\" for more information."
 msgstr ""
-"Po zaznaczeniu wersja LilyPonda zostanie wybrana wg wersji użytej w danym "
-"dokumencie.\n"
+"Po zaznaczeniu wersja LilyPonda zostanie wybrana wg wersji użytej w danym dokumencie.\n"
 "Zobacz \"Co to jest\", aby uzyskać więcej informacji."
 
-#: ../preferences/lilypond.py:87 ../preferences/prefshelp.py:108
+#: ../preferences/lilypond.py:87
+#: ../preferences/prefshelp.py:108
 msgid ""
-"<p>If this setting is enabled, the document is searched for a LilyPond <code>"
-"\\version</code> command or a <code>version</code> document variable.</p>\n"
+"<p>If this setting is enabled, the document is searched for a LilyPond <code>\\version</code> command or a <code>version</code> document variable.</p>\n"
 "<p>The LilyPond version command looks like:</p>\n"
 "<pre>\\version \"2.14.0\"</pre>\n"
 "<p>The document variable looks like:</p>\n"
 "<pre>-*- version: 2.14.0;</pre>\n"
-"<p>somewhere (in a comments section) in the first or last 5 lines of the "
-"document. This way the LilyPond version to use can also be specified in non-"
-"LilyPond documents like HTML, LaTeX, etc.</p>\n"
-"<p>If the document specifies a version, the oldest suitable LilyPond version "
-"is chosen. Otherwise, the default version is chosen.</p>\n"
+"<p>somewhere (in a comments section) in the first or last 5 lines of the document. This way the LilyPond version to use can also be specified in non-LilyPond documents like HTML, LaTeX, etc.</p>\n"
+"<p>If the document specifies a version, the oldest suitable LilyPond version is chosen. Otherwise, the default version is chosen.</p>\n"
 msgstr ""
 
 #: ../preferences/lilypond.py:101
@@ -3080,10 +3027,7 @@ msgid "MIDI Ports"
 msgstr "Porty MIDI"
 
 #: ../preferences/midi.py:79
-msgid ""
-"Note: There are no MIDI output ports available on your system. To use MIDI, "
-"please check if PortMIDI is installed on your system and that a MIDI "
-"synthesizer is available or connected."
+msgid "Note: There are no MIDI output ports available on your system. To use MIDI, please check if PortMIDI is installed on your system and that a MIDI synthesizer is available or connected."
 msgstr ""
 
 #: ../preferences/midi.py:82
@@ -3091,46 +3035,34 @@ msgid "Player output:"
 msgstr "Wyjście odtwarzacza:"
 
 #: ../preferences/midi.py:84
-msgid ""
-"The MIDI port to play music to. See \"What's This\" for more information."
-msgstr ""
-"Port MIDI dla odtwarzania muzyki. Zobacz \"Co to jest\", by uzyskać więcej "
-"informacji."
+msgid "The MIDI port to play music to. See \"What's This\" for more information."
+msgstr "Port MIDI dla odtwarzania muzyki. Zobacz \"Co to jest\", by uzyskać więcej informacji."
 
 #: ../preferences/midi.py:87
 msgid ""
-"<p>This dropdown menu lists the available MIDI ports on your system. You can "
-"select one, or just type part of a name. In that case, the first available "
-"port name that starts with the specified characters is used.</p>\n"
-"<p>Click the button to refresh the list, e.g. when you connect a MIDI device "
-"or start a software synthesizer.</p>"
+"<p>This dropdown menu lists the available MIDI ports on your system. You can select one, or just type part of a name. In that case, the first available port name that starts with the specified characters is used.</p>\n"
+"<p>Click the button to refresh the list, e.g. when you connect a MIDI device or start a software synthesizer.</p>"
 msgstr ""
 
 #: ../preferences/midi.py:96
 msgid "Refresh MIDI ports"
 msgstr "Odśwież porty MIDI"
 
-#: ../preferences/midi.py:135 ../preferences/prefshelp.py:145
+#: ../preferences/midi.py:135
+#: ../preferences/prefshelp.py:145
 msgid "Close unused MIDI output"
 msgstr "Zamknij nieużywane wyjście MIDI"
 
 #: ../preferences/midi.py:137
-msgid ""
-"Closes unused MIDI ports after one minute. See \"What's This\" for more "
-"information."
-msgstr ""
-"Zamyka nieużywane porty MIDI po upływie jednej minuty. Zobacz \"Co to jest"
-"\", aby uzyskać więcej informacji."
+msgid "Closes unused MIDI ports after one minute. See \"What's This\" for more information."
+msgstr "Zamyka nieużywane porty MIDI po upływie jednej minuty. Zobacz \"Co to jest\", aby uzyskać więcej informacji."
 
-#: ../preferences/midi.py:140 ../preferences/prefshelp.py:147
+#: ../preferences/midi.py:140
+#: ../preferences/prefshelp.py:147
 msgid ""
-"<p>If checked, Frescobaldi will close MIDI output ports that are not used "
-"for one minute.</p>\n"
-"<p>This could free up system resources that a software MIDI synthesizer "
-"might be using, thus saving battery power.</p>\n"
-"<p>A side effect is that if you pause a MIDI file for a long time the "
-"instruments are reset to the default piano (instrument 0). In that case, "
-"playing the file from the beginning sets up the instruments again.</p>\n"
+"<p>If checked, Frescobaldi will close MIDI output ports that are not used for one minute.</p>\n"
+"<p>This could free up system resources that a software MIDI synthesizer might be using, thus saving battery power.</p>\n"
+"<p>A side effect is that if you pause a MIDI file for a long time the instruments are reset to the default piano (instrument 0). In that case, playing the file from the beginning sets up the instruments again.</p>\n"
 msgstr ""
 
 #: ../preferences/paths.py:59
@@ -3138,51 +3070,31 @@ msgid "Folders containing hyphenation dictionaries"
 msgstr "Katalogi zawierające słowniki z regułami dzielenia wyrazów"
 
 #: ../preferences/prefshelp.py:40
-msgid ""
-"In the Preferences Dialog (under {menu}) you can configure many aspects of "
-"Frescobaldi and LilyPond."
+msgid "In the Preferences Dialog (under {menu}) you can configure many aspects of Frescobaldi and LilyPond."
 msgstr ""
 
 #: ../preferences/prefshelp.py:56
-msgid ""
-"Under <em>{general_preferences}</em>, you can choose in which language "
-"Frescobaldi's user interface is translated, which user interface style you "
-"want to use, and whether you want to use the built-in Tango iconset or to "
-"use the system-wide configured icon set."
+msgid "Under <em>{general_preferences}</em>, you can choose in which language Frescobaldi's user interface is translated, which user interface style you want to use, and whether you want to use the built-in Tango iconset or to use the system-wide configured icon set."
 msgstr ""
 
 #: ../preferences/prefshelp.py:62
-msgid ""
-"Language and style take effect immediately, but the new iconset is visible "
-"after Frescobaldi has been restarted."
+msgid "Language and style take effect immediately, but the new iconset is visible after Frescobaldi has been restarted."
 msgstr ""
 
 #: ../preferences/prefshelp.py:64
-msgid ""
-"Under <em>{startup}</em> you can configure which session to load if "
-"Frescobaldi is started without a filename. You can choose whether to start "
-"with one empty document, with the last used session, or with a specific "
-"session. See also {link}."
+msgid "Under <em>{startup}</em> you can configure which session to load if Frescobaldi is started without a filename. You can choose whether to start with one empty document, with the last used session, or with a specific session. See also {link}."
 msgstr ""
 
 #: ../preferences/prefshelp.py:71
-msgid ""
-"Under <em>{saving}</em>, you can choose what to do when a document is saved, "
-"such as remembering the cursor position and marked lines, or leaving a "
-"backup copy of the document (with a ~ appended). Also, you can specify a "
-"default folder in which you keep your LilyPond documents."
+msgid "Under <em>{saving}</em>, you can choose what to do when a document is saved, such as remembering the cursor position and marked lines, or leaving a backup copy of the document (with a ~ appended). Also, you can specify a default folder in which you keep your LilyPond documents."
 msgstr ""
 
 #: ../preferences/prefshelp.py:87
-msgid ""
-"Here you can configure how LilyPond is run when you engrave your document."
+msgid "Here you can configure how LilyPond is run when you engrave your document."
 msgstr ""
 
 #: ../preferences/prefshelp.py:89
-msgid ""
-"If you have multiple versions of LilyPond installed you can specify them "
-"here, and configure Frescobaldi to automatically choose the right one, based "
-"on the version number that is set in the document ({more_info})."
+msgid "If you have multiple versions of LilyPond installed you can specify them here, and configure Frescobaldi to automatically choose the right one, based on the version number that is set in the document ({more_info})."
 msgstr ""
 
 #: ../preferences/prefshelp.py:93
@@ -3191,15 +3103,11 @@ msgid "more info"
 msgstr "Texinfo"
 
 #: ../preferences/prefshelp.py:94
-msgid ""
-"You can also configure how LilyPond is run. See the tooltips of the settings "
-"for more information."
+msgid "You can also configure how LilyPond is run. See the tooltips of the settings for more information."
 msgstr ""
 
 #: ../preferences/prefshelp.py:96
-msgid ""
-"Finally, you can specify a list of paths where the LilyPond <code>\\include</"
-"code> command looks for files."
+msgid "Finally, you can specify a list of paths where the LilyPond <code>\\include</code> command looks for files."
 msgstr ""
 
 #: ../preferences/prefshelp.py:132
@@ -3211,10 +3119,7 @@ msgid "You can specify the MIDI port name to play to. "
 msgstr ""
 
 #: ../preferences/prefshelp.py:134
-msgid ""
-"If there are no port names visible in the drop-down box, it may be necessary "
-"to connect a hardware MIDI synthesizer to your computer, or to start a "
-"software synthesizer program such as TiMidity or Fluidsynth."
+msgid "If there are no port names visible in the drop-down box, it may be necessary to connect a hardware MIDI synthesizer to your computer, or to start a software synthesizer program such as TiMidity or Fluidsynth."
 msgstr ""
 
 #: ../preferences/prefshelp.py:138
@@ -3222,102 +3127,70 @@ msgid "On Linux, the synthesizer should be available as an ALSA MIDI device."
 msgstr ""
 
 #: ../preferences/prefshelp.py:140
-msgid ""
-"If you have a device with multiple ports, you can specify the first letters "
-"of the name, to have Frescobaldi automatically pick the first available one."
+msgid "If you have a device with multiple ports, you can specify the first letters of the name, to have Frescobaldi automatically pick the first available one."
 msgstr ""
 
 #: ../preferences/prefshelp.py:143
-msgid ""
-"And finally, when using a software synthesizer it is recommended to enable "
-"the option <em>{close_unused}</em>."
+msgid "And finally, when using a software synthesizer it is recommended to enable the option <em>{close_unused}</em>."
 msgstr ""
 
 #: ../preferences/prefshelp.py:165
 #, fuzzy
-msgid ""
-"In this page you can enter commands to open different file types. <code>$f</"
-"code> is replaced with the filename, <code>$u</code> with the URL. Leave a "
-"field empty to use the operating system default application."
-msgstr ""
-"Poniżej należy wpisać polecenia otwarcia różnych typów plików.<code>$f</"
-"code> zastępowany jest nazwą pliku, <code>$u</code> adresem URL. Należy "
-"pozostawić pole puste, aby uruchamiać programy domyślne dla danego systemu "
-"operacyjnego."
+msgid "In this page you can enter commands to open different file types. <code>$f</code> is replaced with the filename, <code>$u</code> with the URL. Leave a field empty to use the operating system default application."
+msgstr "Poniżej należy wpisać polecenia otwarcia różnych typów plików.<code>$f</code> zastępowany jest nazwą pliku, <code>$u</code> adresem URL. Należy pozostawić pole puste, aby uruchamiać programy domyślne dla danego systemu operacyjnego."
 
 #: ../preferences/prefshelp.py:171
-msgid ""
-"For the e-mail setting, the command should accept a <code>mailto:</code> "
-"url. For the command prompt, the command should open a console window. A "
-"<code>$f</code> value is replaced with the directory of the current document."
+msgid "For the e-mail setting, the command should accept a <code>mailto:</code> url. For the command prompt, the command should open a console window. A <code>$f</code> value is replaced with the directory of the current document."
 msgstr ""
 
 #: ../preferences/prefshelp.py:185
-msgid ""
-"Here, directories can be added that contain <code>hyph_*.dic</code> files, "
-"where the <code>*</code> stands for different language codes."
+msgid "Here, directories can be added that contain <code>hyph_*.dic</code> files, where the <code>*</code> stands for different language codes."
 msgstr ""
 
 #: ../preferences/prefshelp.py:188
-msgid ""
-"These hyphenation dictionaries are used by Frescobaldi to break lyrics text "
-"into syllabes."
+msgid "These hyphenation dictionaries are used by Frescobaldi to break lyrics text into syllabes."
 msgstr ""
 
 #: ../preferences/prefshelp.py:217
-msgid ""
-"Here you can add keyboard shortcuts to all commands available. Also the "
-"{snippets} or {quickinsert} buttons that have keyboard shortcuts are listed "
-"here."
+msgid "Here you can add keyboard shortcuts to all commands available. Also the {snippets} or {quickinsert} buttons that have keyboard shortcuts are listed here."
 msgstr ""
 
-#: ../preferences/prefshelp.py:220 ../snippet/tool.py:54
-#: ../snippet/tool.py:131 ../snippet/widget.py:367
+#: ../preferences/prefshelp.py:220
+#: ../snippet/tool.py:54
+#: ../snippet/tool.py:131
+#: ../snippet/widget.py:367
 msgid "Snippets"
 msgstr "Wstawki"
 
-#: ../preferences/prefshelp.py:221 ../quickinsert/__init__.py:47
+#: ../preferences/prefshelp.py:221
+#: ../quickinsert/__init__.py:47
 #: ../quickinsert/__init__.py:71
 msgid "Quick Insert"
 msgstr "Szybkie wstawianie"
 
 #: ../preferences/prefshelp.py:222
-msgid ""
-"To change a keyboard shortcut, highlight an action in the list and click the "
-"Edit button, or double-click an action. In the dialog that appears, you can "
-"enter up to four shortcuts for the action by clicking the button and typing "
-"the shortcut. "
+msgid "To change a keyboard shortcut, highlight an action in the list and click the Edit button, or double-click an action. In the dialog that appears, you can enter up to four shortcuts for the action by clicking the button and typing the shortcut. "
 msgstr ""
 
-#: ../preferences/prefshelp.py:226 ../preferences/prefshelp.py:249
+#: ../preferences/prefshelp.py:226
+#: ../preferences/prefshelp.py:249
 msgid "You can define a new scheme by using the New button."
 msgstr ""
 
 #: ../preferences/prefshelp.py:236
-msgid ""
-"Here you can set the editor font (a monospace font is recommended) and all "
-"colors."
+msgid "Here you can set the editor font (a monospace font is recommended) and all colors."
 msgstr ""
 
 #: ../preferences/prefshelp.py:238
-msgid ""
-"The first item lets you set the colors for the text editor backgroud, "
-"foreground, selection background, the current line, line markings, the paper "
-"color in the Music View, etcetera."
+msgid "The first item lets you set the colors for the text editor backgroud, foreground, selection background, the current line, line markings, the paper color in the Music View, etcetera."
 msgstr ""
 
 #: ../preferences/prefshelp.py:241
-msgid ""
-"The second item lets you set color and other attributes of the general "
-"highlighting styles, e.g. keyword, variable, value, comment, etcetera."
+msgid "The second item lets you set color and other attributes of the general highlighting styles, e.g. keyword, variable, value, comment, etcetera."
 msgstr ""
 
 #: ../preferences/prefshelp.py:244
-msgid ""
-"The other items contain the types of text the syntax highlighter recognizes "
-"for every particular document type Frescobaldi supports. Some of these types "
-"inherit a general style. It is possible to set the attributes bold, italic, "
-"underline and the foreground, background and underline color."
+msgid "The other items contain the types of text the syntax highlighter recognizes for every particular document type Frescobaldi supports. Some of these types inherit a general style. It is possible to set the attributes bold, italic, underline and the foreground, background and underline color."
 msgstr ""
 
 #: ../preferences/prefshelp.py:259
@@ -3325,7 +3198,8 @@ msgstr ""
 msgid "Here you can change the settings for various tools."
 msgstr "Tutaj można modyfikować skróty klawiszowe dla {name}"
 
-#: ../preferences/shortcuts.py:56 ../snippet/model.py:63
+#: ../preferences/shortcuts.py:56
+#: ../snippet/model.py:63
 msgid "Shortcut"
 msgstr "Skrót"
 
@@ -3414,7 +3288,8 @@ msgstr "Pozwól na stenografowanie"
 msgid "Use short notation for some articulations like staccato."
 msgstr "Użyj skrótowej notacji dla artykulacji takich jak staccato"
 
-#: ../quickinsert/articulations.py:83 ../quickinsert/articulations.py:115
+#: ../quickinsert/articulations.py:83
+#: ../quickinsert/articulations.py:115
 msgid "Articulations"
 msgstr "Artykulacja"
 
@@ -3454,7 +3329,8 @@ msgstr "Espressivo"
 msgid "Ornaments"
 msgstr "Ozdobniki"
 
-#: ../quickinsert/articulations.py:132 ../quickinsert/spanners.py:146
+#: ../quickinsert/articulations.py:132
+#: ../quickinsert/spanners.py:146
 msgid "Trill"
 msgstr "Tryl"
 
@@ -3511,7 +3387,8 @@ msgid "Reverse turn"
 msgstr "Obiegnik odwrócony"
 
 #. L10N: dynamic signs
-#: ../quickinsert/articulations.py:150 ../quickinsert/dynamics.py:115
+#: ../quickinsert/articulations.py:150
+#: ../quickinsert/dynamics.py:115
 msgid "Signs"
 msgstr "Symbole"
 
@@ -3599,7 +3476,8 @@ msgstr "Prawy nos"
 msgid "Half open (e.g. hi-hat)"
 msgstr "Pół otwarty (np. hi-hat)"
 
-#: ../quickinsert/barlines.py:49 ../quickinsert/barlines.py:58
+#: ../quickinsert/barlines.py:49
+#: ../quickinsert/barlines.py:58
 msgid "Bar Lines"
 msgstr "Kreski taktowe"
 
@@ -3699,8 +3577,10 @@ msgstr "{name} ({key})"
 msgid "Configure Keyboard Shortcut ({key})"
 msgstr "Konfiguracja skrótów klawiszowych ({key})"
 
-#: ../quickinsert/buttongroup.py:182 ../scorewiz/scoreproperties.py:171
-#: ../scorewiz/settings.py:195 ../snippet/edit.py:129
+#: ../quickinsert/buttongroup.py:182
+#: ../scorewiz/scoreproperties.py:171
+#: ../scorewiz/settings.py:195
+#: ../snippet/edit.py:129
 msgid "None"
 msgstr "Brak"
 
@@ -3716,7 +3596,8 @@ msgstr "Symbole dynamiki."
 msgid "Dynamic sign {name}"
 msgstr "Oznaczenie dynamiki {name}"
 
-#: ../quickinsert/dynamics.py:133 ../quickinsert/spanners.py:51
+#: ../quickinsert/dynamics.py:133
+#: ../quickinsert/spanners.py:51
 #: ../quickinsert/spanners.py:136
 msgid "Spanners"
 msgstr "Linie"
@@ -3799,8 +3680,7 @@ msgstr "Łuk frazowy"
 
 #: ../quickinsert/widget.py:102
 msgid ""
-"<p>With the Quick Insert Panel you can add various music elements to the "
-"current note or selected music.</p>\n"
+"<p>With the Quick Insert Panel you can add various music elements to the current note or selected music.</p>\n"
 "<p>See {link} for more information.</p>"
 msgstr ""
 
@@ -3832,8 +3712,7 @@ msgid ""
 "</p>\n"
 "\n"
 "<p>\n"
-"The <em>Direction</em> chooser specifies if articulations, dynamics or "
-"slurs\n"
+"The <em>Direction</em> chooser specifies if articulations, dynamics or slurs\n"
 "appear in a neutral position (e.g. determined by stem direction), or above\n"
 "or below the staff by prepending a <code>-</code>, <code>^</code> or\n"
 "<code>_</code> character.\n"
@@ -3855,8 +3734,7 @@ msgid ""
 "These musical symbols can be added to a note or rest or a selected range\n"
 "of music.\n"
 "If you add them to a selection, rests will be skipped.\n"
-"If there is no text selected, the cursor will automatically move to the "
-"next\n"
+"If there is no text selected, the cursor will automatically move to the next\n"
 "pitch, rest, skip or chord.\n"
 "</p>\n"
 "\n"
@@ -3873,8 +3751,7 @@ msgid ""
 "\n"
 "<p>\n"
 "Dynamics can also be added to a note or rest.\n"
-"If you select a range of music, you can add spanners which will "
-"automatically\n"
+"If you select a range of music, you can add spanners which will automatically\n"
 "terminate at the last note, rest or chord in the selection.\n"
 "If you then click a sign, it will replace the terminator.\n"
 "</p>\n"
@@ -3968,24 +3845,16 @@ msgid "Make implicit (per &line)"
 msgstr "Ukryj wartości (w &linii)"
 
 #: ../rhythm/__init__.py:169
-msgid ""
-"Make durations implicit (remove repeated durations), except for the first "
-"duration in a line."
-msgstr ""
-"Ukryj symbole wartości rytmicznych (usuń powtarzające się wartości), z "
-"wyjątkiem pierwszej w każdej z linii."
+msgid "Make durations implicit (remove repeated durations), except for the first duration in a line."
+msgstr "Ukryj symbole wartości rytmicznych (usuń powtarzające się wartości), z wyjątkiem pierwszej w każdej z linii."
 
 #: ../rhythm/__init__.py:171
 msgid "Make &explicit"
 msgstr "Pokaż &wartości rytmiczne"
 
 #: ../rhythm/__init__.py:173
-msgid ""
-"Make durations explicit (add duration to every note, even if it is the same "
-"as the preceding note)."
-msgstr ""
-"Pokaż wszystkie wartości rytmiczne (pokazuje wartość rytmiczną przy każdej "
-"nuty, nawet jeśli jest taka sama jak poprzednia)."
+msgid "Make durations explicit (add duration to every note, even if it is the same as the preceding note)."
+msgstr "Pokaż wszystkie wartości rytmiczne (pokazuje wartość rytmiczną przy każdej nuty, nawet jeśli jest taka sama jak poprzednia)."
 
 #: ../rhythm/__init__.py:175
 msgid "&Apply rhythm..."
@@ -4026,8 +3895,7 @@ msgstr "Manipulowanie rytmem"
 #: ../rhythm/rhythm.py:247
 msgid ""
 "<p>\n"
-"The rhythm functions of Frescobaldi alter the durations written after "
-"notes,\n"
+"The rhythm functions of Frescobaldi alter the durations written after notes,\n"
 "chords, rests, etcetera. Using those functions, all in menu {menu}, it\n"
 "is possible to double or halve the length of notes, to add or remove dots\n"
 "and to remove scaling factors.\n"
@@ -4035,16 +3903,13 @@ msgid ""
 "\n"
 "<p>\n"
 "Also it is possible to change the way rhythm is specified: for every note\n"
-"(explicit), or only when the duration changes (implicit). Some users may "
-"prefer\n"
-"the option implicit per line, which always specifies the duration for the "
-"first\n"
+"(explicit), or only when the duration changes (implicit). Some users may prefer\n"
+"the option implicit per line, which always specifies the duration for the first\n"
 "note, chord or rest on a line.\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"The last three menu commands can copy, paste or apply a rhythm that is "
-"entered\n"
+"The last three menu commands can copy, paste or apply a rhythm that is entered\n"
 "in a dialog.\n"
 "</p>\n"
 "\n"
@@ -4066,7 +3931,8 @@ msgctxt "submenu title"
 msgid "Rhythm"
 msgstr "Rytm"
 
-#: ../scorewiz/__init__.py:59 ../scorewiz/dialog.py:194
+#: ../scorewiz/__init__.py:59
+#: ../scorewiz/dialog.py:194
 msgid "Setup New Score..."
 msgstr "Utwórz nową partyturę..."
 
@@ -4130,11 +3996,9 @@ msgid ""
 "In the second tab, <em>Parts</em>, you can compose your score out of many\n"
 "available part types.\n"
 "Doubleclick a part type to add it to your score (or click Add).\n"
-"Select the part in the score list to change some settings for the selected "
-"part,\n"
+"Select the part in the score list to change some settings for the selected part,\n"
 "if desired.\n"
-"Many parts, especially Choir, have powerful options to set up the score the "
-"way\n"
+"Many parts, especially Choir, have powerful options to set up the score the way\n"
 "you want it.\n"
 "</p>\n"
 "\n"
@@ -4144,8 +4008,7 @@ msgid ""
 "</p>\n"
 "\n"
 "<p>\n"
-"Click the Preview button to get a preview with some example music filled "
-"in.\n"
+"Click the Preview button to get a preview with some example music filled in.\n"
 "Click OK to copy the generated LilyPond source text to the editor.\n"
 "</p>\n"
 "\n"
@@ -4160,17 +4023,14 @@ msgid ""
 "This category contains the Score, Book and Bookpart types, with which you\n"
 "can setup a LilyPond document containing multiple scores or even books.\n"
 "You may add Score, Bookpart or Book entries to the score view.\n"
-"They can be nested: a Score can be added to a Bookpart or Book but you "
-"can't\n"
+"They can be nested: a Score can be added to a Bookpart or Book but you can't\n"
 "add a Book to a Bookpart or a Score.\n"
 "</p>\n"
 "\n"
 "<p>\n"
 "Then you can add musical parts.\n"
-"If you want to create multiple scores with exact the same parts, you can "
-"just\n"
-"add the parts to the top level of the score view, and then the scores, "
-"without\n"
+"If you want to create multiple scores with exact the same parts, you can just\n"
+"add the parts to the top level of the score view, and then the scores, without\n"
 "adding musical parts to the scores.\n"
 "The scores will then use the parts in the top level of the score.\n"
 "</p>\n"
@@ -4252,7 +4112,9 @@ msgstr "Partytura:"
 msgid "&Add"
 msgstr "&Dodaj"
 
-#: ../scorewiz/score.py:103 ../snippet/widget.py:179 ../widgets/listedit.py:93
+#: ../scorewiz/score.py:103
+#: ../snippet/widget.py:179
+#: ../widgets/listedit.py:93
 #: ../widgets/schemeselector.py:64
 msgid "&Remove"
 msgstr "&Usuń"
@@ -4350,8 +4212,7 @@ msgid "Remove bar numbers"
 msgstr "Usuń numery taktów"
 
 #: ../scorewiz/settings.py:127
-msgid ""
-"Suppress the display of measure numbers at the beginning of every system."
+msgid "Suppress the display of measure numbers at the beginning of every system."
 msgstr "Ukryj numery taktów na początku każdego systemu."
 
 #: ../scorewiz/settings.py:129
@@ -4367,12 +4228,8 @@ msgid "Show metronome mark"
 msgstr "Pokaż oznaczenie metronomiczne"
 
 #: ../scorewiz/settings.py:134
-msgid ""
-"If checked, show the metronome mark at the beginning of the score. The MIDI "
-"output also uses the metronome setting."
-msgstr ""
-"Jeśli zaznaczysz, oznaczenie metronomiczne pojawi się na początkupartytury. "
-"Użyte zostanie także w pliku MIDI."
+msgid "If checked, show the metronome mark at the beginning of the score. The MIDI output also uses the metronome setting."
+msgstr "Jeśli zaznaczysz, oznaczenie metronomiczne pojawi się na początkupartytury. Użyte zostanie także w pliku MIDI."
 
 #: ../scorewiz/settings.py:137
 msgid "Paper size:"
@@ -4382,11 +4239,13 @@ msgstr "Rozmiar papieru:"
 msgid "Landscape"
 msgstr "Układ poziomy"
 
-#: ../scorewiz/settings.py:192 ../scorewiz/settings.py:195
+#: ../scorewiz/settings.py:192
+#: ../scorewiz/settings.py:195
 msgid "Long"
 msgstr "Pełna nazwa"
 
-#: ../scorewiz/settings.py:192 ../scorewiz/settings.py:195
+#: ../scorewiz/settings.py:192
+#: ../scorewiz/settings.py:195
 msgid "Short"
 msgstr "Skrót"
 
@@ -4408,8 +4267,7 @@ msgstr "Użyj pełnej nazwy lub skrótu na początku pierwszego systemu. "
 
 #: ../scorewiz/settings.py:226
 msgid "Use short, long or no instrument names before the next systems."
-msgstr ""
-"Użyj skrótów, pełnych nazw lub nie używaj nazw przed kolejnymi systemami."
+msgstr "Użyj skrótów, pełnych nazw lub nie używaj nazw przed kolejnymi systemami."
 
 #: ../scorewiz/settings.py:228
 msgid "Which language to use for the instrument names."
@@ -4441,8 +4299,7 @@ msgstr "Ustal ilość oddzielnych głosów dla każdej pięciolinii. "
 
 #: ../scorewiz/parts/_base.py:134
 msgid "This is primarily useful when you write polyphonic music like a fuge."
-msgstr ""
-"Jest to szczególnie użyteczne w pisaniu muzyki polifonicznej, np. fugi."
+msgstr "Jest to szczególnie użyteczne w pisaniu muzyki polifonicznej, np. fugi."
 
 #: ../scorewiz/parts/_base.py:136
 msgid "Right hand:"
@@ -4461,12 +4318,8 @@ msgid "Guitar fret diagrams"
 msgstr "Wykres progów gitary"
 
 #: ../scorewiz/parts/_base.py:189
-msgid ""
-"Show predefined guitar fret diagrams below the chord names (LilyPond 2.12 "
-"and above)."
-msgstr ""
-"Pokaż tabulaturowy wykres progów gitary pod nazwami akordów (LilyPond 2.12 i "
-"wyższy)."
+msgid "Show predefined guitar fret diagrams below the chord names (LilyPond 2.12 and above)."
+msgstr "Pokaż tabulaturowy wykres progów gitary pod nazwami akordów (LilyPond 2.12 i wyższy)."
 
 #: ../scorewiz/parts/_base.py:203
 msgid "Chords follow here."
@@ -4575,8 +4428,7 @@ msgstr "Łącz kreski taktowe"
 
 #: ../scorewiz/parts/containers.py:73
 msgid "If checked, barlines are connected between the staves."
-msgstr ""
-"Po zaznaczeniu kreski taktowe będą przeciągnięte pomiędzy pięcioliniami"
+msgstr "Po zaznaczeniu kreski taktowe będą przeciągnięte pomiędzy pięcioliniami"
 
 #: ../scorewiz/parts/containers.py:94
 msgid "Score"
@@ -4604,11 +4456,8 @@ msgstr ""
 
 #: ../scorewiz/parts/containers.py:188
 msgid ""
-"<p>Here you can specify a filename or suffix (without extension) to set the "
-"names of generated output files for this book.</p>\n"
-"<p>If you choose \"Suffix\" the entered name will be appended to the "
-"document's file name; if you choose \"Filename\", just the entered name will "
-"be used.</p>"
+"<p>Here you can specify a filename or suffix (without extension) to set the names of generated output files for this book.</p>\n"
+"<p>If you choose \"Suffix\" the entered name will be appended to the document's file name; if you choose \"Filename\", just the entered name will be used.</p>"
 msgstr ""
 
 #: ../scorewiz/parts/containers.py:193
@@ -4711,11 +4560,13 @@ msgctxt "abbreviation for Marimba"
 msgid "Mar."
 msgstr "Mar."
 
-#: ../scorewiz/parts/percussion.py:84 ../scorewiz/parts/plucked_strings.py:318
+#: ../scorewiz/parts/percussion.py:84
+#: ../scorewiz/parts/plucked_strings.py:318
 msgid "Upper staff:"
 msgstr "Górna pięciolinia:"
 
-#: ../scorewiz/parts/percussion.py:85 ../scorewiz/parts/plucked_strings.py:319
+#: ../scorewiz/parts/percussion.py:85
+#: ../scorewiz/parts/plucked_strings.py:319
 msgid "Lower staff:"
 msgstr "Dolna pięciolinia:"
 
@@ -4914,7 +4765,8 @@ msgctxt "abbreviation for Jazz guitar"
 msgid "J.Gt."
 msgstr "Git.jazz."
 
-#: ../scorewiz/parts/plucked_strings.py:279 ../scorewiz/parts/vocal.py:171
+#: ../scorewiz/parts/plucked_strings.py:279
+#: ../scorewiz/parts/vocal.py:171
 msgid "Bass"
 msgstr "Bas"
 
@@ -4949,7 +4801,8 @@ msgstr "Hf."
 msgid "Plucked strings"
 msgstr "Strunowe szarpane"
 
-#: ../scorewiz/parts/special.py:39 ../scorewiz/parts/vocal.py:204
+#: ../scorewiz/parts/special.py:39
+#: ../scorewiz/parts/vocal.py:204
 msgid "Chord names"
 msgstr "Nazwy akordów"
 
@@ -4961,7 +4814,8 @@ msgstr "Bas cyfrowany"
 msgid "Use extender lines"
 msgstr "Użyj wypełniających linii"
 
-#: ../scorewiz/parts/special.py:60 ../scorewiz/parts/strings.py:109
+#: ../scorewiz/parts/special.py:60
+#: ../scorewiz/parts/strings.py:109
 msgid "Figures follow here."
 msgstr "Poniżej wpisz cyfowanie basu."
 
@@ -5088,34 +4942,25 @@ msgid "Lead sheet"
 msgstr "Prymka"
 
 #: ../scorewiz/parts/vocal.py:202
-msgid ""
-"The Lead Sheet provides a staff with chord names above and lyrics below it. "
-"A second staff is optional."
-msgstr ""
-"Prymka zawiera pięciolinię z akordami powyżej oraz tekstem poniżej.Drugi "
-"system jest opcjonalny."
+msgid "The Lead Sheet provides a staff with chord names above and lyrics below it. A second staff is optional."
+msgstr "Prymka zawiera pięciolinię z akordami powyżej oraz tekstem poniżej.Drugi system jest opcjonalny."
 
 #: ../scorewiz/parts/vocal.py:205
 msgid "Add accompaniment staff"
 msgstr "Dodaj pięciolinię z akompaniamentem"
 
 #: ../scorewiz/parts/vocal.py:207
-msgid ""
-"Adds an accompaniment staff and also puts an accompaniment voice in the "
-"upper staff."
-msgstr ""
-"Dodaje pięciolinię z akompaniamentem, a także głos na górnej pięciolinii."
+msgid "Adds an accompaniment staff and also puts an accompaniment voice in the upper staff."
+msgstr "Dodaje pięciolinię z akompaniamentem, a także głos na górnej pięciolinii."
 
-#: ../scorewiz/parts/vocal.py:273 ../scorewiz/parts/vocal.py:360
+#: ../scorewiz/parts/vocal.py:273
+#: ../scorewiz/parts/vocal.py:360
 msgid "Choir"
 msgstr "Chór"
 
 #: ../scorewiz/parts/vocal.py:319
-msgid ""
-"Please select the voices for the choir. Use the letters S, A, T, or B. A "
-"hyphen denotes a new staff."
-msgstr ""
-"Wybierz głosy chóralne. Użyj liter S, A, T, B.Myślnik oznacza nowy system."
+msgid "Please select the voices for the choir. Use the letters S, A, T, or B. A hyphen denotes a new staff."
+msgstr "Wybierz głosy chóralne. Użyj liter S, A, T, B.Myślnik oznacza nowy system."
 
 #: ../scorewiz/parts/vocal.py:321
 msgid "Hint: For a double choir you can use two choir parts."
@@ -5142,12 +4987,8 @@ msgid "Rehearsal MIDI files"
 msgstr "Pliki MIDI do ćwiczeń"
 
 #: ../scorewiz/parts/vocal.py:329
-msgid ""
-"Creates a rehearsal MIDI file for every voice, even if no MIDI output is "
-"generated for the main score."
-msgstr ""
-"Tworzy pliki MIDI do ćwiczeń dla każdego głosu, nawet jeśli plik MIDI dla "
-"partytury nie został wygenerowany."
+msgid "Creates a rehearsal MIDI file for every voice, even if no MIDI output is generated for the main score."
+msgstr "Tworzy pliki MIDI do ćwiczeń dla każdego głosu, nawet jeśli plik MIDI dla partytury nie został wygenerowany."
 
 #: ../scorewiz/parts/vocal.py:361
 msgctxt "abbreviation for Choir"
@@ -5171,10 +5012,8 @@ msgid "Every voice same lyrics"
 msgstr "Ten sam tekst dla każdego głosu"
 
 #: ../scorewiz/parts/vocal.py:661
-msgid ""
-"Every voice gets its own lyrics, using the same text as the other voices."
-msgstr ""
-"Każdy głos ma własne słowa, używając tego samego tekstu jak pozostałe głosy."
+msgid "Every voice gets its own lyrics, using the same text as the other voices."
+msgstr "Każdy głos ma własne słowa, używając tego samego tekstu jak pozostałe głosy."
 
 #: ../scorewiz/parts/vocal.py:663
 msgid "Every voice different lyrics"
@@ -5553,7 +5392,8 @@ msgstr "Prymka"
 msgid "Choir Hymn"
 msgstr "Hymn chóralny"
 
-#: ../snippet/edit.py:120 ../snippet/insert.py:223
+#: ../snippet/edit.py:120
+#: ../snippet/insert.py:223
 msgid "Edit Snippet"
 msgstr "Edytuj wstawkę"
 
@@ -5590,12 +5430,7 @@ msgid "Snippet editor"
 msgstr "Edytor wstawek"
 
 #: ../snippet/edit.py:207
-msgid ""
-"<p>Here you can edit the text of the snippet.</p><p>If you start the first "
-"line(s) with '<code>-*- </code>' (note the space), the remainder of that line"
-"(s) defines variables like <code>name: value;</code> or simply <code>name;</"
-"code> which influence the behaviour of the snippet. The following variables "
-"can be used:</p>"
+msgid "<p>Here you can edit the text of the snippet.</p><p>If you start the first line(s) with '<code>-*- </code>' (note the space), the remainder of that line(s) defines variables like <code>name: value;</code> or simply <code>name;</code> which influence the behaviour of the snippet. The following variables can be used:</p>"
 msgstr ""
 
 #: ../snippet/edit.py:216
@@ -5603,10 +5438,7 @@ msgid "Place the snippet in the insert menu, grouped by the (optional) value."
 msgstr ""
 
 #: ../snippet/edit.py:218
-msgid ""
-"Place the snippet in the menu {file_new_from_template}, grouped by the "
-"(optional) value. When triggered via the menu, the snippet is inserted into "
-"a new document."
+msgid "Place the snippet in the menu {file_new_from_template}, grouped by the (optional) value. When triggered via the menu, the snippet is inserted into a new document."
 msgstr ""
 
 #: ../snippet/edit.py:222
@@ -5632,9 +5464,7 @@ msgid "The icon to show in menu and snippet list."
 msgstr "Ikona wstawki używana w menu i na liście wstawek."
 
 #: ../snippet/edit.py:231
-msgid ""
-"The symbol to show in menu and snippet list. Symbols are icons that use the "
-"default text color and can be found in {directory}."
+msgid "The symbol to show in menu and snippet list. Symbols are icons that use the default text color and can be found in {directory}."
 msgstr ""
 
 #: ../snippet/edit.py:235
@@ -5658,10 +5488,7 @@ msgid "Selects all inserted text."
 msgstr "Zaznacza cały wprowadzony tekst."
 
 #: ../snippet/edit.py:251
-msgid ""
-"<p>The other lines of the snippet define the text to be inserted in the "
-"editor. Here, you can insert variables prefixed with a $. A double $ will be "
-"replaced with a single one. The following variables are recognized:</p>"
+msgid "<p>The other lines of the snippet define the text to be inserted in the editor. Here, you can insert variables prefixed with a $. A double $ will be replaced with a single one. The following variables are recognized:</p>"
 msgstr ""
 
 #: ../snippet/edit.py:267
@@ -5670,9 +5497,7 @@ msgstr "Wstawki Pythona"
 
 #: ../snippet/edit.py:272
 msgid ""
-"<p>Python snippets can read and should set the variable {text}. The variable "
-"{text} contains the currently selected text (which may be an empty string).</"
-"p>\n"
+"<p>Python snippets can read and should set the variable {text}. The variable {text} contains the currently selected text (which may be an empty string).</p>\n"
 "<p>You may set {text} to a string or a list of strings.</p>\n"
 "<p>Other variables that may be referenced:</p>"
 msgstr ""
@@ -5682,29 +5507,19 @@ msgid "A list of strings describing the type of text the cursor is at."
 msgstr ""
 
 #: ../snippet/edit.py:282
-msgid ""
-"The current QTextCursor, giving access to the document. Don't change the "
-"document through the cursor, however."
+msgid "The current QTextCursor, giving access to the document. Don't change the document through the cursor, however."
 msgstr ""
 
 #: ../snippet/edit.py:285
-msgid ""
-"When setting {text} to a list instead of a string, you can use this value to "
-"specify the place the text cursor will be placed after inserting the snippet."
+msgid "When setting {text} to a list instead of a string, you can use this value to specify the place the text cursor will be placed after inserting the snippet."
 msgstr ""
 
 #: ../snippet/edit.py:289
-msgid ""
-"When setting {text} to a list instead of a string, this value can be used "
-"together with {cursor} to select text when inserting the string parts of the "
-"list."
+msgid "When setting {text} to a list instead of a string, this value can be used together with {cursor} to select text when inserting the string parts of the list."
 msgstr ""
 
 #: ../snippet/edit.py:294
-msgid ""
-"When you define a function with this name, it is called without arguments, "
-"instead of inserting the text from the {text} variable. In this case you may "
-"alter the document through the {cursor}."
+msgid "When you define a function with this name, it is called without arguments, instead of inserting the text from the {text} variable. In this case you may alter the document through the {cursor}."
 msgstr ""
 
 #: ../snippet/expand.py:76
@@ -5736,12 +5551,8 @@ msgid "Moves the text cursor here after insert."
 msgstr "Przesuwa kursor tutaj po wstawieniu."
 
 #: ../snippet/expand.py:104
-msgid ""
-"Selects text from here to the position given using the <code>$CURSOR</code> "
-"variable"
-msgstr ""
-"Zaznacza tekst od tego miejsca do pozycji przekazanej w zmiennej <code>"
-"$CURSOR</code>"
+msgid "Selects text from here to the position given using the <code>$CURSOR</code> variable"
+msgstr "Zaznacza tekst od tego miejsca do pozycji przekazanej w zmiennej <code>$CURSOR</code>"
 
 #: ../snippet/expand.py:108
 msgid "The selected text if available. If not, the text cursor is moved here."
@@ -5751,7 +5562,8 @@ msgstr ""
 msgid "No snippets found."
 msgstr "Nie znaleziono żadnych wstawek."
 
-#: ../snippet/import_export.py:111 ../snippet/widget.py:266
+#: ../snippet/import_export.py:111
+#: ../snippet/widget.py:266
 msgctxt "dialog title"
 msgid "Import Snippets"
 msgstr "Importuj wstawki"
@@ -5783,9 +5595,7 @@ msgstr "Brak nowych lub zaktualizowanych wstawek w tym pliku."
 #: ../snippet/import_export.py:194
 msgid ""
 "<p>Here the snippets from {filename} are displayed.</p>\n"
-"<p>If there are new or updated snippets, you can select or deselect them one "
-"by one, or all at once, using the checkbox of the group. Then click OK to "
-"import all the selected snippets.</p>\n"
+"<p>If there are new or updated snippets, you can select or deselect them one by one, or all at once, using the checkbox of the group. Then click OK to import all the selected snippets.</p>\n"
 "<p>Existing, unchanged snippets can't be imported.</p>\n"
 msgstr ""
 
@@ -5837,7 +5647,8 @@ msgstr "W&stawki..."
 msgid "&Menu"
 msgstr "&Menu"
 
-#: ../snippet/widget.py:173 ../widgets/listedit.py:91
+#: ../snippet/widget.py:173
+#: ../widgets/listedit.py:91
 msgid "&Add..."
 msgstr "&Dodaj..."
 
@@ -5845,7 +5656,8 @@ msgstr "&Dodaj..."
 msgid "Add a new snippet. ({key})"
 msgstr "Dodaj nową wstawkę. ({key})"
 
-#: ../snippet/widget.py:176 ../widgets/listedit.py:92
+#: ../snippet/widget.py:176
+#: ../widgets/listedit.py:92
 msgid "&Edit..."
 msgstr "&Edytuj..."
 
@@ -5892,32 +5704,23 @@ msgid ""
 msgstr ""
 
 #: ../snippet/widget.py:192
-msgid ""
-"Enter text to search in the snippets list, and press Enter to apply the "
-"currently selected snippet."
+msgid "Enter text to search in the snippets list, and press Enter to apply the currently selected snippet."
 msgstr ""
 
 #: ../snippet/widget.py:194
-msgid ""
-"If the search text fully matches the value of the '{name}' variable of a "
-"snippet, that snippet is selected."
+msgid "If the search text fully matches the value of the '{name}' variable of a snippet, that snippet is selected."
 msgstr ""
 
 #: ../snippet/widget.py:196
-msgid ""
-"If the search text starts with a colon ':', the rest of the search text "
-"filters snippets that define the given variable. After a space a value can "
-"also be entered, snippets will then match if the value of the given variable "
-"contains the text after the space."
+msgid "If the search text starts with a colon ':', the rest of the search text filters snippets that define the given variable. After a space a value can also be entered, snippets will then match if the value of the given variable contains the text after the space."
 msgstr ""
 
 #: ../snippet/widget.py:201
-msgid ""
-"E.g. entering {menu} will show all snippets that are displayed in the insert "
-"menu."
+msgid "E.g. entering {menu} will show all snippets that are displayed in the insert menu."
 msgstr ""
 
-#: ../snippet/widget.py:265 ../snippet/widget.py:282
+#: ../snippet/widget.py:265
+#: ../snippet/widget.py:282
 msgid "XML Files"
 msgstr "Pliki XML"
 
@@ -5946,16 +5749,13 @@ msgid ""
 "in the search entry.\n"
 "Snippets can also have keyboard shortcuts applied to them.\n"
 "Some snippets have a special mnemonic (short name) which you can also type\n"
-"in the search entry to select the snippet. Pressing the Return key will "
-"then\n"
+"in the search entry to select the snippet. Pressing the Return key will then\n"
 "apply the snippet to the text editor and hide the snippets manager.\n"
 "</p>\n"
 "\n"
 "<p>\n"
-"Add new snippets using {key_add}. Edit the selected snippet with "
-"{key_edit}.\n"
-"Remove selected snippets using {key_delete}. Warning: this cannot be "
-"undone!\n"
+"Add new snippets using {key_add}. Edit the selected snippet with {key_edit}.\n"
+"Remove selected snippets using {key_delete}. Warning: this cannot be undone!\n"
 "</p>\n"
 "\n"
 "<p>\n"
@@ -5987,7 +5787,8 @@ msgstr "Usuń sekwencję klawiszy."
 msgid "Input"
 msgstr "Wejście"
 
-#: ../widgets/schemeselector.py:47 ../widgets/schemeselector.py:62
+#: ../widgets/schemeselector.py:47
+#: ../widgets/schemeselector.py:62
 msgid "Scheme:"
 msgstr "Schemat:"
 
@@ -6061,12 +5862,12 @@ msgstr "Wybierz plik"
 
 #~ msgid "Copyright (c) 2008-2010, Wilbert Berendsen"
 #~ msgstr "Copyright (c) 2008-2010, Wilbert Berendsen"
-
 #~ msgctxt "NAME OF TRANSLATORS"
+
 #~ msgid "Your name"
 #~ msgstr "Piotr Komorowski"
-
 #~ msgctxt "EMAIL OF TRANSLATORS"
+
 #~ msgid "i18n@frescobaldi.org"
 #~ msgstr "i18n@frescobaldi.org"
 
@@ -6199,6 +6000,7 @@ msgstr "Wybierz plik"
 #~ "(preview mode), which increases the file size dramatically. Please "
 #~ "consider to rebuild the file in publish mode, because then the PDF file "
 #~ "is much smaller."
+
 #~ msgid_plural ""
 #~ "Note: these PDF files have been created with embedded point-and-click "
 #~ "URLs (preview mode), which increases the file size dramatically. Please "
